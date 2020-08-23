@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"ଆପାତକାଳୀନ ଆଲର୍ଟ"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"ଆପାତକାଳୀନ ଅଲର୍ଟ"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"ଏହି ୟୁଜରଙ୍କ ପାଇଁ ସେଲ୍‌ ବ୍ରୋଡକାଷ୍ଟ ସେଟିଙ୍ଗ ଉପଲବ୍ଧ ନାହିଁ"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"ଠିକ ଅଛି"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"ପୂର୍ବରୁ କୌଣସି ଆଲର୍ଟ ନାହିଁ"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"ବ୍ରୋଡକାଷ୍ଟକୁ ଡିଲିଟ୍‌ କରନ୍ତୁ"</string>
+    <string name="message_options" msgid="3178489901903589574">"ମେସେଜ୍‌ ବିକଳ୍ପ"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"ବିବରଣୀ ଦେଖନ୍ତୁ"</string>
+    <string name="menu_delete" msgid="128380070910799366">"ବ୍ରୋଡକାଷ୍ଟକୁ ଡିଲିଟ୍‌ କରନ୍ତୁ"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"ଅଲର୍ଟ ବିବରଣୀ"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"ଏହି ବ୍ରୋଡକାଷ୍ଟକୁ ଡିଲିଟ୍‌ କରିବେ?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"ପ୍ରାପ୍ତ କରିଥିବା ସମସ୍ତ ବ୍ରୋଡକାଷ୍ଟ ମେସେଜ୍‌ ଡିଲିଟ୍‌ କରିବେ?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"ଡିଲିଟ୍‌ କରନ୍ତୁ"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"କ୍ୟାନ୍ସଲ୍‍ କରନ୍ତୁ"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"ଭୂମିକମ୍ପ ଚେତାବନୀ"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"ସୁନାମି ଚେତାବନୀ"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"ଭୂମିକମ୍ପ ଏବଂ ସୁନାମି ଚେତାବନୀ"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"ETWS ଟେଷ୍ଟ ମେସେଜ୍‍"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"ଆପାତକାଳୀନ ଚେତାବନୀ"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"ପ୍ରେସିଡେନ୍‌ଶିଅଲ ଅଲର୍ଟ"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"ଅପାତକାଳୀନ ଅଲର୍ଟ: ସାଂଘାତିକ"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"ଅପାତକାଳୀନ ଅଲର୍ଟ: ସାଂଘାତିକ"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"ଅପାତକାଳୀନ ଅଲର୍ଟ: ସାଂଘାତିକ"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"ଅପାତକାଳୀନ ଅଲର୍ଟ: ଗମ୍ଭୀର"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"ଶିଶୁ ଅପହରଣ (ଅମ୍ବର୍‌ ଅଲର୍ଟ)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"ମାସିକ ଯାଞ୍ଚ ଆବଶ୍ୟକ"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"ଅପାତକାଳୀନ ଅଲର୍ଟ (ବ୍ୟାୟାମ)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"ଅପାତକାଳୀନ ଅଲର୍ଟ (ଅପରେଟର୍)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"ବ୍ରୋଡକାଷ୍ଟ ମେସେଜ୍‌"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"ଜନସୁରକ୍ଷା ମେସେଜ୍"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"ରାଜ୍ୟ/ସ୍ଥାନୀୟ ପରୀକ୍ଷା"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"ଅପାତକାଳୀନ ଆଲର୍ଟ"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"ଅଲର୍ଟ"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"ବ୍ରୋଡକାଷ୍ଟ ମେସେଜ୍‌"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"ଆପାତକାଳୀନ ଆଲର୍ଟ"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"ଆଲର୍ଟକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"ଆପାତକାଳୀନ ବିଜ୍ଞପ୍ତି ପାଆନ୍ତୁ"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"ଆଲର୍ଟ ରିମାଇଣ୍ଡର୍ ସାଉଣ୍ଡ"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"ଆପାତକାଳୀନ ଆଲର୍ଟ ହିଷ୍ଟୋରୀ"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"ନିଜ ପସନ୍ଦର ଆଲର୍ଟ"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ETWS ଟେଷ୍ଟ ବ୍ରୋଡକାଷ୍ଟ"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"ଭୂମିକମ୍ପ, ସୁନାମି ଚେତାବନୀ ସିଷ୍ଟମ୍‌ ପାଇଁ ଟେଷ୍ଟ ବ୍ରୋଡକାଷ୍ଟ"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"ଗୁରୁତର ବିପଦ ଆଶଙ୍କା"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"ଜୀବନ ଓ ସମ୍ପତ୍ତି ପ୍ରତି ଗୁରୁତର ବିପଦ ଆଶଙ୍କା"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"ଗମ୍ଭୀର ବିପଦ ଆଶଙ୍କା"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"ଜୀବନ ଓ ସମ୍ପତ୍ତି ପ୍ରତି ଗମ୍ଭୀର ବିପଦ ଆଶଙ୍କା"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"ଅମ୍ବର୍‌ ଆଲର୍ଟ"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"ଶିଶୁ ଅପହରଣର ଅପାତକାଳୀନ ବୁଲେଟିନ୍"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"ଆଲର୍ଟ ମେସେଜ୍"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"ଏପରି ବିଷୟରେ ସୂଚନା ଦେବା, ଯେଉଁ କାରଣରୁ ସୁରକ୍ଷା ଉପରେ ବିପଦ ଆସିପାରେ"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"ଜନସୁରକ୍ଷା ମେସେଜ୍"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"ସୁପାରିସକୃତ କାର୍ଯ୍ୟ, ଯାହା ଜୀବନ କିମ୍ୱା ସମ୍ପତ୍ତି ବଞ୍ଚାଇପାରିବ"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"ରାଜ୍ୟ ଓ ସ୍ଥାନୀୟ ପରୀକ୍ଷା"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"ରାଜ୍ୟ ଓ ସ୍ଥାନୀୟ କର୍ତ୍ତୃପକ୍ଷଙ୍କ ତରଫରୁ ପରୀକ୍ଷାମୂଳକ ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"ଆପାତକାଳୀନ ଆଲର୍ଟ"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"ପ୍ରାଣଘାତକ ଘଟଣା ବିଷୟରେ ଚେତାବନୀ"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"ମାସିକ ଯାଞ୍ଚ ଆବଶ୍ୟକ"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"ସୁରକ୍ଷା ଆଲର୍ଟ ସିଷ୍ଟମ୍ ପାଇଁ ପରୀକ୍ଷାମୂଳକ ମେସେଜ୍ ପ୍ରାପ୍ତ କରନ୍ତୁ"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"ଭାଇବ୍ରେସନ୍"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"ଅଞ୍ଚଳ ଅପଡେଟ୍‍ ବ୍ରୋଡକାଷ୍ଟକରିବା"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"SIM ଷ୍ଟାଟସରେ ଅପଡେଟ୍‍ ସୂଚନା ଦେଖାନ୍ତୁ"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"ଅଲର୍ଟ ବର୍ଗ:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"ଜିଓଫିଜିକାଲ"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"ପାଣିପାଗ ସମ୍ବନ୍ଧୀୟ"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"ନିରାପତ୍ତା"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"ସୁରକ୍ଷା"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"ଉଦ୍ଧାର"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"ନିଆଁ"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"ସ୍ଵାସ୍ଥ୍ୟ"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"ପରିବେଶ ସମ୍ବନ୍ଧୀୟ"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"ପରିବହନ"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"ଇନଫ୍ରାଷ୍ଟ୍ରକଚର୍‌"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"ରାସାୟନିକ/ଜୀବବିଜ୍ଞାନ/ଆଣବିକ/ବିସ୍ଫୋରକ"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"ଅନ୍ୟାନ୍ୟ"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"ପ୍ରତିକ୍ରିୟାର ପ୍ରକାର:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"ଆଶ୍ରୟ"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"ଖାଲି କରନ୍ତୁ"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"ପ୍ରସ୍ତୁତ"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"ନିଷ୍ପାଦନ କରନ୍ତୁ"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"ନୀରିକ୍ଷଣ"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"ଏଡ଼ାଇ ଯାଆନ୍ତୁ"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"ଆକଳନ"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"କିଛିନୁହେଁ"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"ଗମ୍ଭୀରତା:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"ସାଂଘାତିକ"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"ଗମ୍ଭୀର"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"ଜରୁରୀ:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"ତାତ୍କାଳିକ"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"ପ୍ରତ୍ୟାଶିତ"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"ନିଶ୍ଚିତ:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"ପରିଲକ୍ଷିତ"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"ପ୍ରାୟତଃ"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"ପ୍ରାପ୍ତ ହୋଇଛି:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"<xliff:g id="COUNT">%s</xliff:g>ଟି ପଢ଼ାଯାଇନଥିବା ଅଲର୍ଟ।"</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"ନୂଆ ଅଲର୍ଟ"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"ପ୍ରଥମ ଆଲର୍ଟ ପ୍ରଦର୍ଶନ ପରେ ବାହାରିଯିବା ଡାୟଲଗ୍‌ ଦେଖାନ୍ତୁ (ପ୍ରେସିଡେନଶିଅଲ୍ ଆଲର୍ଟ ଛଡ଼ା)।"</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"ଅପ୍ଟ-ଆଉଟ୍ ଡାୟଲଗ୍‌ ଦେଖାନ୍ତୁ"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"ବର୍ତ୍ତମାନ ଆପଣ ଅପାତକାଳୀନ ଅଲର୍ଟ ପ୍ରାପ୍ତ କରୁଛନ୍ତି। ଆପଣଙ୍କୁ ପ୍ରାପ୍ତ ହେଉଥିବା ଅପାତକାଳୀନ ଅଲର୍ଟକୁ ଜାରିରଖିବାକୁ ଚାହୁଁଛନ୍ତି କି?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"ହଁ"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"ନାଁ"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"ଅପାତକାଳୀନ ଆଲର୍ଟ ହିଷ୍ଟୋରୀ"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"ଥରେ"</item>
+    <item msgid="9097229303902157183">"ପ୍ରତି 2 ମିନିଟରେ"</item>
+    <item msgid="5718214950343391480">"ପ୍ରତି 5 ମିନିଟରେ"</item>
+    <item msgid="3863339891188103437">"ପ୍ରତି 15 ମିନିଟରେ"</item>
+    <item msgid="6868848414437854609">"ଅଫ୍‌"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"ୱେୟାରଲେସ୍‌ ଅପାତକାଳୀନ ଅଲର୍ଟ"</string>
+</resources>

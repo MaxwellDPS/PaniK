@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"Arifa za dharura"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"Arifa za dharura"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"Mipangilio ya matangazo ya simu za mkononi haipatikani kwa mtumiaji huyu"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"Sawa"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"Hakuna arifa za awali"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"Futa matangazo"</string>
+    <string name="message_options" msgid="3178489901903589574">"Chaguo za ujumbe"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"Ona maelezo"</string>
+    <string name="menu_delete" msgid="128380070910799366">"Futa tangazo"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"Maelezo ya arifa"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"Futa matangazo haya?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"Futa jumbe zote zilizopokewa za matangazo?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"Futa"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"Ghairi"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"Onyo la tetemeko la ardhi"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"Onyo la Tsunami"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"Onyo la tetemeko la ardhi na la tsunami"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"Ujumbe wa Jaribio la ETWS"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"Onyo la dharura"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"Arifa ya Rais"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"Arifa ya Dharura: Kali kabisa"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"Arifa ya Dharura: Kali kabisa"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"Arifa ya Dharura: Kali kabisa"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"Arifa ya dharura: Kali"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"Utekaji nyara Watoto (arifa za AMBER)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"Jaribio la Kila Mwezi Linalohitajika"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"Arifa ya Dharura (Zoezi)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"Arifa ya dharura (mtoa huduma)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"Ujumbe kwa wapokeaji wengi"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"Ujumbe wa usalama kwa umma"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"Jaribio la Jimbo/Serikali ya mitaa"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"Arifa ya dharura"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"Arifa"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"Ujumbe kwa wapokeaji wengi"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"Arifa za dharura"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"Ruhusu arifa"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"Pokea arifa za dharura"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"Kikumbusho cha arifa kilie"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"Historia ya arifa za dharura"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"Mapendeleo ya arifa"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"Jaribio la matangazo ya ETWS"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"Jaribio la matangazo ya Mfumo wa Ilani za Zilizala ya Tsunami"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"Vitisho hatari zaidi"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"Arifa za mambo yanayotishia maisha na mali"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"Vitisho hatari"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"Vitisho vikali kwa maisha na mali"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"Arifa za AMBER"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"Taarifa za dharura kuhusu utekaji nyara wa watoto"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"Ujumbe wa tahadhari"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"Itoe tahadhari kuhusu hatari za usalama zinazokaribia kutokea"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"Ujumbe wa usalama kwa umma"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"Hatua zinazopendekezwa ambazo zinaweza kuokoa maisha na mali"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"Majaribio katika jimbo na setikali za mitaa"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"Pokea ujumbe wa majaribio kutoka kwa mamlaka ya jimbo na serikali za mitaa"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"Arifa za dharura"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"Itoe tahadhari kuhusu matukio yanayohatarisha maisha"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"Jaribio la kila mwezi linalohitajika"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"Pokea ujumbe wa kujaribu kama mfumo wa tahadhari za usalama unafanya kazi"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"Mtetemo"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"Matangazo ya taarifa ya eneo"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"Onyesha maelezo ya taarifa kwenye hali ya SIM"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"Kitengo cha Arifa:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"Jiofizikia"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"Metorolojia"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"Usalama"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"Usalama"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"Okoa"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"Moto"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"Afya"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"Kimazingira"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"Uchukuzi"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"Miundomsingi"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"Kemikali/Biolojia/Nyuklea/Vilipuaji"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"Nyinginezo"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"Aina ya Jibu:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"Pata makazi"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"Okoa"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"Andaa"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"Tekeleza"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"Chunguza"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"Epuka"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"Tathmini"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"Hamna"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"Ukali:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"Kupindukia"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"Kali"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"Uharaka:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"Papo hapo"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"Inatarajiwa"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"Uhakika:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"Iliyozingatiwa"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"Uwezekano"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"Umepokewa:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"Arifu <xliff:g id="COUNT">%s</xliff:g> hazijasomwa."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"Arifu mpya"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"Onyesha kidirisha cha chaguo la kuondoka baada ya kuonyesha arifa ya kwanza (kando na Arifa inayohusu Rais)."</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"Onyesha kidadisi cha chaguo la kuondoka"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"Unapokea Arifa za Dharura hivi sasa. Je, ungependa kuendelea kupokea Arifa za Dharura?`"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"Ndiyo"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"La"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"Historia ya arifa za dharura"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"Mara moja"</item>
+    <item msgid="9097229303902157183">"Kila baada ya dakika 2"</item>
+    <item msgid="5718214950343391480">"Kila baada ya dakika 5"</item>
+    <item msgid="3863339891188103437">"Kila baada ya dakika 15"</item>
+    <item msgid="6868848414437854609">"Imezimwa"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"Arifa za tahadhari kupitia vifaa visivyotumia waya"</string>
+</resources>

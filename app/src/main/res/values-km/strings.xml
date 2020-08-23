@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"ការជូន​ដំណឹង​ពេលអាសន្ន"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"ការជូន​ដំណឹង​ពេលអាសន្ន"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"ការ​កំណត់​ប្រកាស​ចល័ត​មិន​អាច​ប្រើ​បាន​សម្រាប់​អ្នក​ប្រើ​នេះ"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"យល់​ព្រម​"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"មិន​មាន​ការជូនដំណឹង​ពីមុន​ទេ"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"លុប​ការ​ផ្សាយ"</string>
+    <string name="message_options" msgid="3178489901903589574">"ជម្រើស​សារ"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"មើល​​ព័ត៌មាន​លម្អិត"</string>
+    <string name="menu_delete" msgid="128380070910799366">"លុប​ការ​ផ្សាយ"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"ព័ត៌មាន​លម្អិត​ការ​ជូន​ដំណឹង"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"លុប​ការ​ប្រកាស​នេះ?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"លុប​សារ​ប្រកាស​ដែល​បាន​​ទទួល​ទាំងអស់?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"លុប"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"បោះ​បង់​"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"ការ​ព្រមាន​ពី​​ការរញ្ជួយ​ដី"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"ការ​ព្រមានអំ​​ពី​រលក​យក្ស​ស៊ូ​ណាមិ"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"ការ​ព្រមាន​ពី​ការ​​រញ្ជួយ​ដី​ និង​រលក​យក្ស​ស៊ូ​ណា​មិ"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"សារ​សាកល្បង ETWS"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"ការ​ព្រមាន​ពេល​អាសន្ន"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"ការ​ជូន​ដំណឹង​​ផ្លូវការ"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន៖ ខ្លាំង​បំផុត"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន៖ ខ្លាំង​បំផុត"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន៖ ខ្លាំង​បំផុត"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន៖ ធ្ងន់ធ្ងរ"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"ការ​ចាប់ជំរិត​ក្មេង (ជូន​ដំណឹង​ពណ៌​លឿង)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"តេស្ត​ប្រចាំ​ខែ​ដែល​ចាំបាច់"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន (ហ្វឹកហាត់)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន (ប្រតិបត្តិ​ករ)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"សារ​ផ្សព្វផ្សាយ"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"សារ​សុវត្ថិភាព​សាធារណៈ"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"ការសាកល្បង​ក្នុងមូលដ្ឋាន/រដ្ឋ"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"ការ​ជូន​ដំណឹង​ពេល​អាសន្ន"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"ការជូនដំណឹង"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"សារ​ផ្សព្វផ្សាយ"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"ការជូន​ដំណឹង​ពេលអាសន្ន"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"អនុញ្ញាត​ការជូន​ដំណឹង"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"ទទួល​ការជូន​ដំណឹង​ពេល​អាសន្ន"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"សំឡេងការរំលឹកការជូនដំណឹង"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"ប្រវត្តិការជូនដំណឹង​ពេលអាសន្ន"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"ចំណូលចិត្តការជូនដំណឹង"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ការ​ផ្សាយ​សាកល្បងរបស់ ETWS"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"ការ​ផ្សាយ​សាកល្បង​សម្រាប់​ Earthquake Tsunami Warning System"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"ការ​គំរាមកំហែង​ធ្ងន់ធ្ងរបំផុត"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"ការគំរាមកំហែងដល់អាយុជីវិត និងទ្រព្យសម្បត្តិដ៏ធ្ងន់ធ្ងរបំផុត"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"ការ​គំរាម​កំហែង​ធ្ងន់ធ្ងរ"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"ការគំរាមកំហែងដល់អាយុជីវិត និងទ្រព្យសម្បត្តិដ៏ធ្ងន់ធ្ងរ"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"ការ​ជូនដំណឹងចាប់ជំរិតក្មេង"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"ព្រឹត្តិបត្រអាសន្ន​អំពី​ការចាប់ជំរិត​ក្មេង"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"សារ​ជូនដំណឹង"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"ព្រមាន​អំពី​ការគំរាម​កំហែងផ្នែក​សុវត្ថិភាព​ដែលនឹង​កើត​មាន"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"សារ​សុវត្ថិភាព​សាធារណៈ"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"សកម្មភាព​ដែលណែនាំ​ឱ្យធ្វើ​ដែលអាច​ជួយសង្គ្រោះ​ជីវិត ឬទ្រព្យ​សម្បត្តិ"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"ការសាកល្បងក្នុងមូលដ្ឋាន និងរដ្ឋ"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"ទទួល​សារ​សាកល្បង​ពីអាជ្ញាធរ​មូលដ្ឋាន និងរដ្ឋ"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"ការជូន​ដំណឹង​ពេលអាសន្ន"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"ព្រមាន​អំពី​ព្រឹត្តិការណ៍​ដែលគំរាម​កំហែងដល់​អាយុជីវិត"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"តេស្ត​ប្រចាំ​ខែ​ដែល​ចាំបាច់"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"ទទួលសារសាកល្បង​សម្រាប់ប្រព័ន្ធ​ជូនដំណឹងផ្នែក​សុវត្ថិភាព"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"ការ​ញ័រ"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"ការផ្សាយបច្ចុប្បន្នភាពតំបន់"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"បង្ហាញ​ព័ត៌មាន​បច្ចុប្បន្ន​ភាព​នៅ​ក្នុង​ស្ថានភាព​ស៊ីម"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"ប្រភេទ​រំលឹក៖"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"កត្តា​ភូមិសាស្ត្រ"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"ឧតុនិយម"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"សុវត្ថិភាព"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"សន្តិសុខ"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"ជួយសង្គ្រោះ"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"អគ្គិភ័យ"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"សុខាភិបាល"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"បរិស្ថាន"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"ការ​​ដឹកជញ្ជូន"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"ហេដ្ឋារចនាសម្ព័ន្ធ"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"គីមី/ជីវសាស្ត្រ/នុយក្លេអ៊ែរ/គ្រឿង​ផ្ទុះ"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"ផ្សេងៗ"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"ប្រភេទ​ឆ្លើយតប៖"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"ទី​ជម្រក"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"ជម្លៀស"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"រៀបចំ"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"អនុវត្ត"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"តាមដាន"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"ជៀសវាង"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"វាយតម្លៃ"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"គ្មាន"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"តឹងរ៉ឹង៖"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"ខ្លាំង​បំផុត"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"ធ្ងន់ធ្ងរ"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"បន្ទាន់៖"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"ភ្លាមៗ"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"រំពឹង​ទុក"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"ច្បាស់៖"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"សង្កេត"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"ប្រហែល"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"បាន​ទទួល៖"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"ការ​ជូន​ដំណឹង​មិន​ទាន់​អាន <xliff:g id="COUNT">%s</xliff:g>"</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"ការ​ជូន​ដំណឹង​ថ្មី"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"បង្ហាញ​ប្រអប់​បញ្ចូល​សម្រាប់ការ​ផ្តាច់ចេញ បន្ទាប់​ពី​បង្ហាញ​ការ​ជូន​ដំណឹង​ដំបូង (ជា​ជាង​ការ​ជូន​ដំណឹងផ្លូវការ)។"</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"បង្ហាញ​ប្រអប់​ចេញ"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"បច្ចុប្បន្ន​អ្នក​កំពុង​ទទួល​ការ​ជូន​ដំណឹង​ពេល​អាសន្ន។ តើ​អ្នក​ចង់​បន្ត​ទទួល​ការ​ជូន​ដំណឹង​ពេល​អាសន្ន​ដែរ​ឬទេ?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"បាទ/ចាស"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"ទេ"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"ប្រវត្តិការជូនដំណឹងពេលអាសន្ន"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"ម្ដង"</item>
+    <item msgid="9097229303902157183">"រាល់ 2​ នាទីម្តង"</item>
+    <item msgid="5718214950343391480">"រាល់ 5 នាទីម្ដង"</item>
+    <item msgid="3863339891188103437">"រាល់ 15 នាទីម្តង"</item>
+    <item msgid="6868848414437854609">"បិទ"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"ការជូនដំណឹងអាសន្នដោយឥតប្រើខ្សែ"</string>
+</resources>

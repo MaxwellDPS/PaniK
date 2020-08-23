@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"Alertas de emergência"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"Alertas de emergência"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"As definições de difusão celular não estão disponíveis para este utilizador"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"OK"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"Não existem alertas anteriores."</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"Eliminar transmissões"</string>
+    <string name="message_options" msgid="3178489901903589574">"Opções da mensagem"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"Ver detalhes"</string>
+    <string name="menu_delete" msgid="128380070910799366">"Eliminar transmissão"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"Detalhes de alerta"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"Eliminar esta difusão?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"Eliminar todas as mensagens de difusão recebidas?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"Eliminar"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"Cancelar"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"Aviso de terramoto"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"Aviso de tsunami"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"Aviso de terramoto e tsunami"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"Mensagem de teste ETWS"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"Aviso de emergência"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"Alerta presidencial"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"Alerta de emergência: Extrema"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"Alerta de emergência: Extrema"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"Alerta de emergência: Extrema"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"Alerta de emergência: Grave"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"Rapto de crianças (Alerta Âmbar)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"Teste mensal obrigatório"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"Alerta de emergência (exercício)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"Alerta de emergência (Operador)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"Mensagens de difusão"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"Mensagem de segurança pública"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"Teste local/estatal"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"Alerta de emergência"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"Alertas"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"Mensagens de difusão"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"Alertas de emergência"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"Permitir alertas"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"Receber notificações de emergência"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"Som dos lembretes de alerta"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"Histórico de alertas de emergência"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"Preferências de alerta"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"Difusões de teste do ETWS"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"Difusões de teste para o Sistema de Aviso de Terramotos e Tsunamis"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"Ameaças extremas"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"Ameaças extremas à vida e à propriedade"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"Ameaças graves"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"Ameaças graves à vida e à propriedade"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"Alertas ÂMBAR"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"Boletins de emergência de raptos de crianças"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"Mensagens de alerta"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"Avisar acerca de ameaças à segurança iminentes"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"Mensagens de segurança pública"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"Ações recomendadas que podem salvar vidas ou propriedades."</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"Testes locais e estatais"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"Receber mensagens de teste de autoridades locais e estatais"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"Alertas de emergência"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"Avisar acerca de eventos potencialmente fatais"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"Teste mensal obrigatório"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"Receber mensagens de teste para o sistema de alerta de segurança"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"Vibração"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"Transmissões de atualização de área"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"Mostrar informações de atualização no estado do SIM"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"Categoria de Alerta:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"Geofísico"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"Meteorológico"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"Segurança"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"Segurança"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"Salvamento"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"Fogo"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"Saúde"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"Ambiental"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"Meios de transporte"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"Infraestruturas"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"Químico/Biológico/Nuclear/Explosivo"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"Outro"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"Tipo de Resposta:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"Abrigo"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"Evacuar"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"Prepare-se"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"Executar"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"Monitorização"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"Evitar"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"Avaliar"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"Nenhuma"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"Gravidade:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"Extremo"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"Grave"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"Urgência:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"Imediato"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"Previsto"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"Certeza:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"Observado"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"Provável"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"Recebido:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"<xliff:g id="COUNT">%s</xliff:g> alertas não lidos."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"Novos alertas"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"Mostrar uma caixa de diálogo de exclusão após apresentar o 1.º alerta (para além do Alerta presid.)"</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"Mostrar caixa de diálogo de exclusão"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"Atualmente, está a receber Alertas de Emergência. Pretende continuar a receber Alertas de Emergência?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"Sim"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"Não"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"Histórico de alertas de emergência"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"Uma vez"</item>
+    <item msgid="9097229303902157183">"De 2 em 2 minutos"</item>
+    <item msgid="5718214950343391480">"De 5 em 5 minutos"</item>
+    <item msgid="3863339891188103437">"De 15 em 15 minutos"</item>
+    <item msgid="6868848414437854609">"Desativado"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"Alertas de emergência sem fios"</string>
+</resources>

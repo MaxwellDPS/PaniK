@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"அவசரக்கால எச்சரிக்கைகள்"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"அவசரகால எச்சரிக்கைகள்"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"இவரால் செல் பிராட்காஸ்ட் அமைப்புகளை மாற்ற முடியாது"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"சரி"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"முந்தைய அறிவிப்புகள் எதுவுமில்லை"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"அலைபரப்புகளை நீக்கு"</string>
+    <string name="message_options" msgid="3178489901903589574">"செய்தி விருப்பங்கள்"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"விவரங்களைக் காட்டு"</string>
+    <string name="menu_delete" msgid="128380070910799366">"அலைபரப்பை நீக்கு"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"விழிப்பூட்டல் விவரங்கள்"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"இந்த அலைபரப்பை நீக்கவா?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"பெற்ற எல்லா அலைபரப்பு செய்திகளையும் நீக்கவா?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"நீக்கு"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"ரத்துசெய்"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"பூகம்ப எச்சரிக்கை"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"சுனாமி எச்சரிக்கை"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"பூகம்பம் மற்றும் சுனாமி எச்சரிக்கை"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"ETWS சோதனைச் செய்தி"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"அவசரகால எச்சரிக்கை"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"ஜனாதிபதியின் எச்சரிக்கை"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"அவசரகால எச்சரிக்கை: உச்சபட்சம்"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"அவசரகால எச்சரிக்கை: அதி தீவிரம்"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"அவசரகால எச்சரிக்கை: அதி தீவிரம்"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"அவசரகால எச்சரிக்கை: கடுமை"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"குழந்தைக் கடத்தல் (Amber எச்சரிக்கை)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"அவசியமான மாதாந்திரச் சோதனை"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"அவசரகால எச்சரிக்கை (பயிற்சி)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"அவசரகால எச்சரிக்கை (ஆபரேட்டர்)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"வலைபரப்புச் செய்திகள்"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"பொதுமக்களுக்கான பாதுகாப்புச் செய்தி"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"மாநில/உள்ளூர் சோதனை மெசேஜ்கள்"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"அவசரகால எச்சரிக்கை"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"எச்சரிக்கைகள்"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"வலைபரப்புச் செய்திகள்"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"அவசரகால எச்சரிக்கைகள்"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"விழிப்பூட்டல்களை அனுமதி"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"அவசரகால அறிவிப்புகளை அனுமதி"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"எச்சரிக்கை ஒலி"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"முன்னர் வந்த அவசரகால எச்சரிக்கை செய்திகள்"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"எச்சரிக்கை விருப்பத்தேர்வுகள்"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ETWS சோதனை வலைபரப்புகள்"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"பூகம்பம் மற்றும் சுனாமி எச்சரிக்கை அமைப்பிற்கான சோதனை வலைபரப்புகள்"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"மிகக் கடுமையான அச்சுறுத்தல்கள்"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"உயிருக்கும் உடைமைக்கும் மிகக் கடுமையான அச்சுறுத்தல்கள்"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"கடுமையான அச்சுறுத்தல்கள்"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"உயிருக்கும் உடைமைக்கும் கடுமையான அச்சுறுத்தல்கள்"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"AMBER எச்சரிக்கைகள்"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"குழந்தைக் கடத்தல் குறித்த அறிவிப்புகள்"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"விழிப்பூட்டல் செய்திகள்"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"வரக்கூடிய பாதுகாப்பு அச்சுறுத்தல்கள் பற்றி எச்சரிக்கவும்"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"பொதுமக்களுக்கான பாதுகாப்புச் செய்திகள்"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"உயிர் அல்லது சொத்தைப் பாதுகாப்பதற்குப் பரிந்துரைக்கப்படும் நடவடிக்கைகள்"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"மாநில மற்றும் உள்ளூர் நிர்வாகங்களின் சோதனை மெசேஜ்கள்"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"மாநில மற்றும் உள்ளூர் நிர்வாகங்களின் சோதனை மெசேஜ்களைப் பெறு"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"அவசரகால விழிப்பூட்டல்கள்"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"உயிருக்கு ஆபத்தை விளைவிக்கும் நிகழ்வுகள் பற்றி எச்சரிக்கவும்"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"அவசியமான மாதாந்திரச் சோதனை"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"பாதுகாப்பு விழிப்பூட்டல் அமைப்புக்கான, சோதனைச் செய்திகளைப் பெறவும்"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"அதிர்வு"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"பகுதி பற்றிய புதிய பிராட்காஸ்ட் அறிவிப்புகள்"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"சிம் நிலையில் புதிய தகவலைக் காட்டு"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"விழிப்பூட்டல் வகை:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"புவியமைப்பியல்"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"வானிலை"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"பாதுகாப்பு"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"பாதுகாப்பு"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"மீட்பு"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"தீ விபத்து"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"உடல்நலம்"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"சுற்றுச்சூழல்"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"போக்குவரத்து"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"உள்கட்டமைப்பு"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"இரசாயனம்/உயிரியல்/அணு/குண்டுவெடிப்பு"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"மற்றவை"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"பதில் வகை:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"புகலிடம்"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"வெளியேற்று"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"தயார்படுத்து"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"செயலாக்கு"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"கண்காணி"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"தவிர்"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"மதிப்பிடு"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"ஏதுமில்லை"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"கடுமையானது:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"எக்ஸ்ட்ரீம்"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"கடுமையானது"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"அவசரம்:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"உடனடியாக"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"எதிர்பார்க்கப்பட்டது"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"நிலைத்தன்மை:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"கண்காணிக்கப்பட்டது"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"நடக்கக்கூடியது"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"பெறப்பட்டது:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"<xliff:g id="COUNT">%s</xliff:g> படிக்காத விழிப்பூட்டல்கள்."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"புதிய விழிப்பூட்டல்கள்"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"முதல் விழிப்பூட்டலைக் (முக்கிய எச்சரிக்கைகள் தவிர்த்து) காண்பித்த பிறகு, விலகல் செய்தியைக் காட்டு."</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"விலகல் செய்தியைக் காட்டு"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"தற்போது நீங்கள் அவசரநிலை விழிப்பூட்டல்களைப் பெறுகிறீர்கள். அவசரநிலை விழிப்பூட்டல்கள் பெறுவதைத் தொடர விரும்புகிறீர்களா?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"ஆம்"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"வேண்டாம்"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"முன்னர் வந்த அவசரகால எச்சரிக்கை செய்திகள்"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"ஒருமுறை மட்டும்"</item>
+    <item msgid="9097229303902157183">"2 நிமிடங்களுக்கு ஒருமுறை"</item>
+    <item msgid="5718214950343391480">"5 நிமிடங்களுக்கு ஒருமுறை"</item>
+    <item msgid="3863339891188103437">"15 நிமிடங்களுக்கு ஒருமுறை"</item>
+    <item msgid="6868848414437854609">"ஆஃப்"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"வயர்லெஸ் அவசரகால எச்சரிக்கைகள்"</string>
+</resources>

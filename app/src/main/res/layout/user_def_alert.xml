@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="254dp"
+        android:text="Sent Fake CMAS / ETWS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Fire"
+        android:layout_width="201dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="593dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="50dp"
+        android:text="Fire"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/alertType"
+        android:layout_width="377dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128">
+
+        <RadioButton
+            android:id="@+id/radioButton_CMAS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="CMAS ALERT"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonETWS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ETWS ALERT"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="85dp" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="98dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="11dp"
+        android:text="Delay "
+        app:layout_constraintBottom_toTopOf="@+id/Fire"
+        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="6dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="10"
+        app:layout_constraintBottom_toTopOf="@+id/Fire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/switch1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="9dp"
+        android:text="Alert Type"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="377dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="THIS IS A UI CMAS TEST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="8dp"
+        android:text="Message Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="147dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="3dp"
+        android:text="Seconds"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="378dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <Switch
+        android:id="@+id/switch_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="18dp"
+        android:text="Mute"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

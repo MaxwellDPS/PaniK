@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Dialog title for presidential level alert. [CHAR LIMIT=50] -->
+    <string name="cmas_presidential_level_alert">National Warning Alerts</string>
+    <!-- CMAS dialog title for extreme alert. [CHAR LIMIT=50] -->
+    <string name="cmas_extreme_alert">Extreme Emergency Warning Alerts</string>
+    <!-- CMAS dialog title for extreme alert with extreme severity, immediate urgency, and observed certainty. [CHAR LIMIT=50] -->
+    <string name="cmas_extreme_immediate_observed_alert">@string/cmas_extreme_alert</string>
+    <!-- CMAS dialog title for extreme alert with extreme severity, immediate urgency,  and likely certainty. [CHAR LIMIT=50] -->
+    <string name="cmas_extreme_immediate_likely_alert">@string/cmas_extreme_alert</string>
+    <!-- CMAS dialog title for severe alert. [CHAR LIMIT=50] -->
+    <string name="cmas_severe_alert">Emergency Warning Alerts</string>
+    <!-- Dialog title for emergency alert for Saudi users. -->
+    <string name="pws_other_message_identifiers">Alerts</string>
+    <string name="enable_emergency_alerts_message_title">Alerts</string>
+    <string name="enable_emergency_alerts_message_summary">Recommended actions that can save lives or property</string>
+    <!-- Dialog title for test alert. [CHAR LIMIT=50] -->
+    <string name="cmas_required_monthly_test">Test Alerts</string>
+    <!-- Dialog title for exercise level alert. [CHAR LIMIT=50] -->
+    <string name="cmas_exercise_alert">Exercises</string>
+</resources>

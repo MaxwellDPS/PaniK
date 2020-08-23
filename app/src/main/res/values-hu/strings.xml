@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"Vészriasztások"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"Vészriasztások"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"A cellán belüli üzenetszórásra vonatkozó beállítások nem érhetők el ennél a felhasználónál"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"OK"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"Nincs korábbi értesítés"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"Adások törlése"</string>
+    <string name="message_options" msgid="3178489901903589574">"Üzenetbeállítások"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"Részletek megtekintése"</string>
+    <string name="menu_delete" msgid="128380070910799366">"Adás törlése"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"Értesítés részletei"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"Törli ezt a közvetítést?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"Törli az összes beérkező közvetítési üzenetet?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"Törlés"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"Mégse"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"Földrengés-figyelmeztetés"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"Szökőár-figyelmeztetés"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"Földrengés- és szökőár-figyelmeztetés"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"ETWS-tesztüzenet"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"Vészfigyelmeztetés"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"Elnöki vészjelzés"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"Vészjelzés: Extrém"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"Vészjelzés: Extrém"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"Vészjelzés: Extrém"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"Vészjelzés: Súlyos"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"Gyermekrablás (Amber Alert)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"Kötelező havi ellenőrzés"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"Vészjelzés (gyakorlat)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"Vészjelzés (operátor)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"Sugárzott üzenetek"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"Közbiztonsággal kapcsolatos üzenet"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"Állami/helyi teszt"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"Vészjelzés"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"Figyelmeztetések"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"Sugárzott üzenetek"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"Vészriasztások"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"Figyelmeztetések engedélyezése"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"Sürgős értesítések fogadása"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"Emlékeztető hangja"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"Vészjelzési előzmények"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"Figyelmeztetések beállításai"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ETWS-tesztadások"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"A földrengés- és szökőár-figyelmeztető rendszer (Earthquake Tsunami Warning System, ETWS) tesztadása"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"Extrém veszélyek"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"Életre és tulajdonra extrém veszélyt jelentő fenyegetések"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"Komoly veszélyek"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"Életre és tulajdonra komoly veszélyt jelentő fenyegetések"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"AMBER jelzés (gyermekrablás)"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"Gyermekrablási vészhelyzetekről szóló közlemények"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"Figyelmeztető üzenetek"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"Közvetlen biztonsági fenyegetésekkel kapcsolatos figyelmeztetés"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"Közbiztonsággal kapcsolatos üzenetek"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"Élet és anyagi eszközök mentésére szolgáló javasolt intézkedések"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"Állami és helyi tesztek"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"Tesztüzenetek fogadása az állami és a helyi hatóságoktól"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"Vészriasztások"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"Életet veszélyeztető eseményekkel kapcsolatos figyelmeztetés"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"Kötelező havi ellenőrzés"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"A biztonsági figyelmeztető rendszer tesztüzeneteinek fogadása"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"Rezgés"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"Területalapú frissítések sugárzása"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"A frissítési adatok megjelenítése a SIM-kártya állapotában"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"Értesítési kategória:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"Geofizika"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"Meteorológia"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"Biztonság"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"Védelem"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"Mentés"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"Tűz"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"Egészség"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"Környezetvédelem"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"Közlekedés"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"Infrastruktúra"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"Vegyi/Biológiai/Nukleáris/Robbanásveszélyes"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"Egyéb"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"Válasz típusa:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"Menedék"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"Kiürítés"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"Készülődés"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"Végrehajtás"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"Megfigyelés"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"Elkerülés"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"Felmérés"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"Egyik sem"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"Súlyosság:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"Extrém"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"Súlyos"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"Sürgősség:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"Azonnali"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"Várt"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"Bizonyosság:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"Megfigyelt"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"Valószínű"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"Kézbesítve:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"<xliff:g id="COUNT">%s</xliff:g> olvasatlan értesítés."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"Új értesítések"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"Leiratkozási párbeszédpanel megjelenítése az első értesítés után (kivéve elnöki riasztások esetén)."</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"Leiratkozási párbeszédpanel mutatása"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"Ön jelenleg kap Vészriasztásokat. Szeretné továbbra is kapni őket?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"Igen"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"Nem"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"Vészjelzési előzmények"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"Egyszer"</item>
+    <item msgid="9097229303902157183">"2 percenként"</item>
+    <item msgid="5718214950343391480">"5 percenként"</item>
+    <item msgid="3863339891188103437">"15 percenként"</item>
+    <item msgid="6868848414437854609">"Kikapcsolva"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"Vezeték nélküli vészriasztások"</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"Төтенше жағдай туралы ескертулер"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"Төтенше жағдай туралы хабарламалар"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"Ұялы таратылым параметрлері осы пайдаланушы үшін қол жетімді емес"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"Жарайды"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"Бұрын ескертулер берілмеген"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"Таратылымдарды жою"</string>
+    <string name="message_options" msgid="3178489901903589574">"Хабар опциялары"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"Мәліметтерді көру"</string>
+    <string name="menu_delete" msgid="128380070910799366">"Таратылымды жою"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"Дабыл туралы мәліметтер"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"Осы тарату арнасын жою керек пе?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"Қабылданған барлық тарату хабарларын жою керек пе?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"Жою"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"Бас тарту"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"Жер сілкінісі туралы ескерту"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"Цунами туралы ескерту"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"Жер сілкінісі және цунами туралы ескерту"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"ETWS мәтіндік хабары"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"Төтенше жағдай туралы ескерту"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"Президенттік дабыл"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"Төтенше дабыл: аса маңызды"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"Төтенше дабыл: аса маңызды"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"Төтенше дабыл: аса маңызды"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"Төтенше дабыл: елеулі"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"Бала ұрлау (AMBER дабылы)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"Ай сайынғы міндетті сынақ"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"Төтенше дабыл (жаттығу)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"Төтенше дабыл (оператор)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"Таратылым хабарлары"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"Жалпы қауіпсіздік хабары"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"Мемлекеттік/Жергілікті тексеру"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"Төтенше жағдай дабылы"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"Хабарламалар"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"Таратылым хабарлары"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"Төтенше жағдай туралы ескертулер"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"Хабарламаларға рұқсат беру"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"Төтенше жағдай хабарландырулары"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"Еске салғыштың дыбысы"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"Төтенше жағдай туралы хабарламалар тарихы"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"Хабарлама параметрлері"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ETWS сынақ таратылымдары"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"Earthquake Tsunami Warning System жүйесі үшін сынақ таратылымдарын көрсету"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"Үлкен қауіптер"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"Өмірге және мүлікке төнген үлкен қауіптер"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"Ауыр қауіптер"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"Өмірге және мүлікке төнген ауыр қауіптер"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"AMBER хабарламалары"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"Бала ұрлау туралы төтенше бюллетеньдер"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"Ескерту хабарлары"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"Болатын қауіп туралы ескерту"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"Жалпы қауіпсіздік хабарлары"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"Өмір мен мүлікті сақтауға ұсынылған әрекеттер"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"Мемлекеттік және жергілікті тексерулер"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"Мемлекеттік және жергілікті органдардан тексеру хабарларын алу"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"Төтенше жағдай туралы ескертулер"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"Өмірге қауіп төндіретін жағдайлар туралы ескерту"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"Ай сайынғы міндетті сынақ"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"Қауіпсіздік жөнінде ескерту жүйесінің тексеру хабарларын алу"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"Діріл"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"Жергілікті жаңартылған ақпаратты тарату"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"SIM күйінде жаңарту ақпаратын көрсету"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"Дабыл санаты:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"Геофизикалық"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"Метеорологиялық"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"Қауіпсіздік"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"Қауіпсіздік"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"Құтқару"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"Өрт"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"Денсаулық"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"Қоршаған орта"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"Тасымалдау"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"Инфрақұрылым"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"Химиялық/биологиялық/ядролық/жарылғыш"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"Басқа"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"Жауап түрі:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"Баспана"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"Құтқару"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"Дайындау"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"Орындау"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"Бақылау"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"Алдын алу"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"Бағалау"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"Ешқандай"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"Маңыздылығы:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"Аса маңызды"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"Елеулі"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"Шұғылдығы:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"Жедел"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"Күтілген"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"Нақтылық:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"Зерттелген"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"Ұқсас"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"Қабылданды:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"<xliff:g id="COUNT">%s</xliff:g> оқылмаған дабыл бар."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"Жаңа дабылдар"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"Алғашқы ескертуден кейін олардан (президенттік ескертулерді қоспағанда) бас тартуды ұсыну."</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"Хабарламаларды өшіру"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"Сіз қазір төтенше дабылдарды қабылдап жатырсыз. Төтенше дабылдар қабылдауды жалғастырғыңыз келе ме?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"Иә"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"Жоқ"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"Төтенше жағдай туралы хабарламалар тарихы"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"Бір рет"</item>
+    <item msgid="9097229303902157183">"2 минут сайын"</item>
+    <item msgid="5718214950343391480">"Әр 5 минут сайын"</item>
+    <item msgid="3863339891188103437">"Әр 15 минут сайын"</item>
+    <item msgid="6868848414437854609">"Өшірулі"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"Төтенше жағдай туралы құлақтандыру"</string>
+</resources>

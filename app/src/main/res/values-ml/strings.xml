@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="6006277287245076524">"അടിയന്തര അലേർട്ടുകൾ"</string>
+    <string name="sms_cb_settings" msgid="3795852619005211509">"അടിയന്തര അലേർട്ടുകൾ"</string>
+    <string name="cell_broadcast_settings_not_available" msgid="2612364350745967915">"ഈ ഉപയോക്താവിനായി സെൽ പ്രക്ഷേപണ ക്രമീകരണങ്ങൾ ലഭ്യമല്ല"</string>
+    <string name="button_dismiss" msgid="1234221657930516287">"ശരി"</string>
+    <string name="no_cell_broadcasts" msgid="7554779730107421769">"മുമ്പത്തേ മുന്നറിയിപ്പുകൾ ഇല്ല"</string>
+    <string name="menu_delete_all" msgid="3940997343921149800">"പ്രക്ഷേപണങ്ങൾ ഇല്ലാതാക്കുക"</string>
+    <string name="message_options" msgid="3178489901903589574">"സന്ദേശ ഓപ്‌ഷനുകൾ"</string>
+    <string name="menu_view_details" msgid="1040989019045280975">"വിശദാംശങ്ങൾ കാണുക"</string>
+    <string name="menu_delete" msgid="128380070910799366">"പ്രക്ഷേപണം ഇല്ലാതാക്കുക"</string>
+    <string name="view_details_title" msgid="1780427629491781473">"അലേർട്ട് വിശദാംശങ്ങൾ"</string>
+    <string name="confirm_delete_broadcast" msgid="2540199303730232322">"ഈ പ്രക്ഷേപണം ഇല്ലാതാക്കണോ?"</string>
+    <string name="confirm_delete_all_broadcasts" msgid="2924444089047280871">"ലഭിച്ച പ്രക്ഷേപണ സന്ദേശങ്ങളെല്ലാം ഇല്ലാതാക്കണോ?"</string>
+    <string name="button_delete" msgid="4672451757925194350">"ഇല്ലാതാക്കുക"</string>
+    <string name="button_cancel" msgid="7479958360523246140">"റദ്ദാക്കുക"</string>
+    <string name="etws_earthquake_warning" msgid="6428741104423152511">"ഭൂകമ്പ മുന്നറിയിപ്പ്"</string>
+    <string name="etws_tsunami_warning" msgid="6173964105145900312">"സുനാമി മുന്നറിയിപ്പ്"</string>
+    <string name="etws_earthquake_and_tsunami_warning" msgid="662449983177407681">"ഭൂകമ്പത്തിന്റെയും സുനാമിയുടേയും മുന്നറിയിപ്പ്"</string>
+    <string name="etws_test_message" msgid="8447820262584381894">"ETWS പരീക്ഷണ സന്ദേശം"</string>
+    <string name="etws_other_emergency_type" msgid="5233080551309721499">"അടിയന്തര മുന്നറിയിപ്പ്"</string>
+    <string name="cmas_presidential_level_alert" msgid="1209234030582361001">"പ്രസിഡൻഷ്യൽ അലേർട്ട്"</string>
+    <string name="cmas_extreme_alert" msgid="2588720613319969289">"അടിയന്തര അലേർട്ട്: അത്യന്തം ഗുരുതരം"</string>
+    <string name="cmas_extreme_immediate_observed_alert" msgid="2328845915287460780">"അടിയന്തിര അലേർട്ട്: അത്യന്തം"</string>
+    <string name="cmas_extreme_immediate_likely_alert" msgid="1859702950323471778">"അടിയന്തിര അലേർട്ട്: അത്യന്തം"</string>
+    <string name="cmas_severe_alert" msgid="4135809475315826913">"അടിയന്തര അലേർട്ട്: ഗുരുതരമായത്"</string>
+    <string name="cmas_amber_alert" msgid="6154867710264778887">"കുട്ടികളെ അപഹരിക്കൽ (ആമ്പർ അലേർട്ട്)"</string>
+    <string name="cmas_required_monthly_test" msgid="1890205712251132193">"ആവശ്യമായ പ്രതിമാസ പരിശോധന"</string>
+    <string name="cmas_exercise_alert" msgid="2892255514938370321">"അടിയന്തര അലേർട്ട് (പരിശീലനം)"</string>
+    <string name="cmas_operator_defined_alert" msgid="8755372450810011476">"അടിയന്തര അലേർട്ട് (ഓപ്പറേറ്റർ)"</string>
+    <string name="cb_other_message_identifiers" msgid="5790068194529377210">"പ്രക്ഷേപണ സന്ദേശങ്ങൾ"</string>
+    <string name="public_safety_message" msgid="9119928798786998252">"പൊതു സുരക്ഷാ സന്ദേശം"</string>
+    <string name="state_local_test_alert" msgid="8003145745857480200">"സംസ്ഥാന/പ്രാദേശിക പരീക്ഷണ മുന്നറിയിപ്പുകൾ"</string>
+    <string name="emergency_alert" msgid="624783871477634263">"അടിയന്തര മുന്നറിയിപ്പ്"</string>
+    <string name="emergency_alerts_title" msgid="6605036374197485429">"അലേർട്ടുകൾ"</string>
+    <string name="notification_channel_broadcast_messages" msgid="880704362482824524">"പ്രക്ഷേപണ സന്ദേശങ്ങൾ"</string>
+    <string name="notification_channel_emergency_alerts" msgid="5008287980979183617">"അടിയന്തര അലേർട്ടുകൾ"</string>
+    <string name="enable_alerts_master_toggle_title" msgid="1457904343636699446">"മുന്നറിയിപ്പുകൾ അനുവദിക്കുക"</string>
+    <string name="enable_alerts_master_toggle_summary" msgid="699552922381916044">"അടിയന്തര അറിയിപ്പുകൾ സ്വീകരിക്കുക"</string>
+    <string name="alert_reminder_interval_title" msgid="7466642011937564868">"അലേർട്ട് റിമൈൻഡർ ശബ്‌ദം"</string>
+    <string name="emergency_alert_history_title" msgid="8310173569237268431">"അടിയന്തര അലേർട്ട് ചരിത്രം"</string>
+    <string name="alert_preferences_title" msgid="6001469026393248468">"അലേർട്ട് മുൻഗണനകൾ"</string>
+    <string name="enable_etws_test_alerts_title" msgid="3593533226735441539">"ETWS പരീക്ഷണ പ്രക്ഷേപണങ്ങൾ"</string>
+    <string name="enable_etws_test_alerts_summary" msgid="8746155402612927306">"ഭൂകമ്പ സുനാമി മുന്നറിയിപ്പ് സി‌സ്‌റ്റത്തിനായുള്ള പരീക്ഷണ പ്രക്ഷേപണങ്ങൾ"</string>
+    <string name="enable_cmas_extreme_threat_alerts_title" msgid="5416260219062637770">"അതീവ ഗുരുതരമായ ഭീഷണികൾ"</string>
+    <string name="enable_cmas_extreme_threat_alerts_summary" msgid="5832146246627518123">"ജീവനും സ്വത്തിനും നേരെയുള്ള അത്യന്തം ഗുരുതരമായ ഭീഷണികൾ"</string>
+    <string name="enable_cmas_severe_threat_alerts_title" msgid="1066172973703410042">"ഗുരുതരമായ ഭീഷണികൾ"</string>
+    <string name="enable_cmas_severe_threat_alerts_summary" msgid="5292443310309039223">"ജീവനും സ്വത്തിനും നേരെയുള്ള ഗുരുതരമായ ഭീഷണികൾ"</string>
+    <string name="enable_cmas_amber_alerts_title" msgid="1475030503498979651">"AMBER അലേർട്ടുകൾ"</string>
+    <string name="enable_cmas_amber_alerts_summary" msgid="4495233280416889667">"കുട്ടികളെ അപഹരിക്കലുമായി ബന്ധപ്പെട്ട അടിയന്തര ബുള്ളറ്റിനുകൾ"</string>
+    <string name="enable_alert_message_title" msgid="2939830587633599352">"മുന്നറിയിപ്പ് സന്ദേശങ്ങൾ"</string>
+    <string name="enable_alert_message_summary" msgid="6525664541696985610">"ഉടൻ ഉണ്ടായേക്കാവുന്ന സുരക്ഷാ ഭീഷണികളെ കുറിച്ച് മുന്നറിയിപ്പ് നൽകുക"</string>
+    <string name="enable_public_safety_messages_title" msgid="5576770949182656524">"പൊതുജനങ്ങൾക്കുള്ള സുരക്ഷാ സന്ദേശങ്ങൾ"</string>
+    <string name="enable_public_safety_messages_summary" msgid="7868069748857851521">"ജീവിതമോ സ്വത്തോ സംരക്ഷിക്കുന്ന, ശുപാർശ ചെയ്‌തിരിക്കുന്ന പ്രവൃത്തികൾ"</string>
+    <string name="enable_state_local_test_alerts_title" msgid="1012930918171302720">"സംസ്ഥാന, പ്രാദേശിക പരീക്ഷണ മുന്നറിയിപ്പുകൾ"</string>
+    <string name="enable_state_local_test_alerts_summary" msgid="780298327377950187">"സംസ്ഥാന, പ്രാദേശിക അധികാരികളിൽ നിന്ന് പരീക്ഷണ സന്ദേശങ്ങൾ സ്വീകരിക്കുക"</string>
+    <string name="enable_emergency_alerts_message_title" msgid="661894007489847468">"അടിയന്തര മുന്നറിയിപ്പുകൾ"</string>
+    <string name="enable_emergency_alerts_message_summary" msgid="7574617515441602546">"ജീവന് ഭീഷണിയുണ്ടാക്കുന്ന സംഭവങ്ങളെ കുറിച്ച് മുന്നറിയിപ്പ് നൽകുക"</string>
+    <string name="enable_cmas_test_alerts_title" msgid="1319231576046146463">"പ്രതിമാസ പരിശോധന ആവശ്യമാണ്"</string>
+    <string name="enable_cmas_test_alerts_summary" msgid="588517403520088484">"സുരക്ഷാ മുന്നറിയിപ്പ് സിസ്റ്റത്തിനുള്ള പരീക്ഷണ സന്ദേശങ്ങൾ സ്വീകരിക്കുക"</string>
+    <string name="enable_alert_vibrate_title" msgid="5421032189422312508">"വൈബ്രേഷൻ"</string>
+    <string name="enable_area_update_info_alerts_title" msgid="3442042268424617226">"ഏരിയ അപ്‌ഡേറ്റ് ബ്രോഡ്‌കാസ്റ്റുകൾ"</string>
+    <string name="enable_area_update_info_alerts_summary" msgid="6437816607144264910">"സിം സ്റ്റാറ്റസിൽ ഏറ്റവും പുതിയ വിവരങ്ങൾ കാണിക്കുക"</string>
+    <string name="cmas_category_heading" msgid="3923503130776640717">"അലേർട്ട് വിഭാഗം:"</string>
+    <string name="cmas_category_geo" msgid="4979494217069688527">"ജിയോഫിസിക്കൽ"</string>
+    <string name="cmas_category_met" msgid="7563732573851773537">"കാലാവസ്ഥാപഠനം"</string>
+    <string name="cmas_category_safety" msgid="2986472639641883453">"സുരക്ഷ"</string>
+    <string name="cmas_category_security" msgid="2549520159044403704">"സുരക്ഷ"</string>
+    <string name="cmas_category_rescue" msgid="4907571719983321086">"രക്ഷാപ്രവർത്തനം"</string>
+    <string name="cmas_category_fire" msgid="3331981591918341119">"തീ"</string>
+    <string name="cmas_category_health" msgid="312569774587117324">"ആരോഗ്യം"</string>
+    <string name="cmas_category_env" msgid="9213088574227522961">"പരിസ്ഥിതിസംബന്ധിയായത്"</string>
+    <string name="cmas_category_transport" msgid="5014901635987361642">"ഗതാഗതം"</string>
+    <string name="cmas_category_infra" msgid="3558151044446851398">"ഇൻഫ്രാസ്‌‌ട്രക്‌ചർ"</string>
+    <string name="cmas_category_cbrne" msgid="240421557913603971">"രസതന്ത്രപരം/ജീവശാസ്‌ത്രപരം/അണുശക്തി/സ്‌ഫോടകവസ്‌തു"</string>
+    <string name="cmas_category_other" msgid="6158932360790744360">"മറ്റുള്ളവ"</string>
+    <string name="cmas_response_heading" msgid="4205379547245540163">"പ്രതികരണ തരം:"</string>
+    <string name="cmas_response_shelter" msgid="7301175579079615909">"അഭയസ്ഥാനം"</string>
+    <string name="cmas_response_evacuate" msgid="5833170084430021095">"ഒഴിപ്പിക്കുക"</string>
+    <string name="cmas_response_prepare" msgid="8428073909753758319">"തയ്യാറെടുക്കുക"</string>
+    <string name="cmas_response_execute" msgid="284719420769568493">"നടപ്പിലാക്കുക"</string>
+    <string name="cmas_response_monitor" msgid="681400164440495749">"നിരീക്ഷിക്കുക"</string>
+    <string name="cmas_response_avoid" msgid="156419597612629270">"ഒഴിവാക്കുക"</string>
+    <string name="cmas_response_assess" msgid="9043534222710563415">"കണക്കാക്കുക"</string>
+    <string name="cmas_response_none" msgid="5149009359674452959">"ഒന്നുമില്ല"</string>
+    <string name="cmas_severity_heading" msgid="8437057117822305243">"തീവ്രത:"</string>
+    <string name="cmas_severity_extreme" msgid="1312013282860183082">"അത്യന്തം ഗുരുതരം"</string>
+    <string name="cmas_severity_severe" msgid="7504359209737074524">"ഗുരുതരമായത്"</string>
+    <string name="cmas_urgency_heading" msgid="8218282767913431492">"അടിയന്തരസ്ഥിതി:"</string>
+    <string name="cmas_urgency_immediate" msgid="1577485208196449288">"ഉടനെ"</string>
+    <string name="cmas_urgency_expected" msgid="6830831119872375936">"പ്രതീക്ഷിച്ചത്"</string>
+    <string name="cmas_certainty_heading" msgid="8374669249736439193">"നിശ്ചിതത്വം:"</string>
+    <string name="cmas_certainty_observed" msgid="3668549749352106472">"കണ്ടത്"</string>
+    <string name="cmas_certainty_likely" msgid="4254497828943291749">"സാധ്യതയുള്ളത്"</string>
+    <string name="delivery_time_heading" msgid="5980836543433619329">"ലഭിച്ചത്:"</string>
+    <string name="notification_multiple" msgid="5121978148152124860">"വായിക്കാത്ത <xliff:g id="COUNT">%s</xliff:g> അലേർട്ടുകൾ."</string>
+    <string name="notification_multiple_title" msgid="1523638925739947855">"പുതിയ അലേർട്ടുകൾ"</string>
+    <string name="show_cmas_opt_out_summary" msgid="6926059266585295440">"ആദ്യ മുന്നറിയിപ്പ് പ്രദർശിപ്പിച്ചശേഷം ഒരു ഒഴിവാക്കൽ ഡയലോഗ് കാണിക്കുക (പ്രസിഡൻഷ്യൽ മുന്നറിയിപ്പ് ഒഴികെ)."</string>
+    <string name="show_cmas_opt_out_title" msgid="9182104842820171132">"ഒഴിവാക്കൽ ഡയലോഗ് കാണിക്കുക"</string>
+    <string name="cmas_opt_out_dialog_text" msgid="7529010670998259128">"നിങ്ങൾ നിലവിൽ അടിയന്തര അലേർട്ടുകൾ നേടുന്നു. നിങ്ങൾക്ക് അടിയന്തര അലേർട്ടുകൾ തുടർന്നും നേടണോ?"</string>
+    <string name="cmas_opt_out_button_yes" msgid="7248930667195432936">"വേണം"</string>
+    <string name="cmas_opt_out_button_no" msgid="3110484064328538553">"വേണ്ട"</string>
+    <string name="cb_list_activity_title" msgid="1433502151877791724">"അടിയന്തര അലേർട്ട് ചരിത്രം"</string>
+  <string-array name="alert_reminder_interval_entries">
+    <item msgid="6595211083588795160">"ഒരിക്കല്‍"</item>
+    <item msgid="9097229303902157183">"എല്ലാ 2 മിനിറ്റിലും"</item>
+    <item msgid="5718214950343391480">"എല്ലാ 5 മിനിറ്റിലും"</item>
+    <item msgid="3863339891188103437">"ഓരോ 15 മിനിറ്റിലും"</item>
+    <item msgid="6868848414437854609">"ഓഫ്"</item>
+  </string-array>
+    <string name="emergency_alert_settings_title_watches" msgid="4477073412799894883">"അടിയന്തര വയർലെസ് അലേർട്ടുകൾ"</string>
+</resources>
