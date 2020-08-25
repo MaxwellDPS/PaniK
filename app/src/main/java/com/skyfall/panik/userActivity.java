@@ -14,8 +14,12 @@ import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Switch;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
+
+import com.skyfall.panik.CBUtils.ETWS;
+import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
+import com.skyfall.panik.CBUtils.SmsCbConstants;
+import com.skyfall.panik.CBUtils.SmsCbLocation;
+import com.skyfall.panik.CBUtils.SmsCbMessage;
 
 public class userActivity extends Activity{
 
@@ -25,7 +29,7 @@ public class userActivity extends Activity{
             return messageId;
         }
 
-        static SmsCbMessage createCmasSmsMessage(int serviceCategory,  String body, int priority ) {
+        static SmsCbMessage createCmasSmsMessage(int serviceCategory, String body, int priority ) {
             int messageClass = CellBroadcastAlertService.getCmasMessageClass(serviceCategory);
             if (priority == 121){
                 priority = SmsCbMessage.MESSAGE_PRIORITY_EMERGENCY;

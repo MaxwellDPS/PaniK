@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.notification;
 
 import android.annotation.IntDef;
 import android.annotation.NonNull;
@@ -13,7 +13,6 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -36,6 +35,14 @@ import android.view.textclassifier.TextLinks;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
+import com.skyfall.panik.CBUtils.SmsCbMessage;
+import com.skyfall.panik.CellBroadcastAlertService;
+import com.skyfall.panik.R;
+import com.skyfall.panik.misc.CellBroadcastChannelManager;
+import com.skyfall.panik.misc.CellBroadcastResources;
+import com.skyfall.panik.misc.CellBroadcastSettings;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;
@@ -50,6 +57,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class CellBroadcastAlertDialog extends Activity {
 
+
     private static final String TAG = "CellBroadcastAlertDialog";
 
     /** Intent extra for non-emergency alerts sent when user selects the notification. */
@@ -57,7 +65,7 @@ public class CellBroadcastAlertDialog extends Activity {
 
     // Intent extra to identify if notification was sent while trying to move away from the dialog
     //  without acknowledging the dialog
-    static final String FROM_SAVE_STATE_NOTIFICATION_EXTRA = "from_save_state_notification";
+    public static final String FROM_SAVE_STATE_NOTIFICATION_EXTRA = "from_save_state_notification";
 
     /** Not link any text. */
     private static final int LINK_METHOD_NONE = 0;

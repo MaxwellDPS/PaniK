@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 import android.os.Parcel;
 import android.os.Parcelable;

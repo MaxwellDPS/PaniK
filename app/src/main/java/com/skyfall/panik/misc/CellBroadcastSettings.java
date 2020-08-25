@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.misc;
 
 
 import android.app.Activity;

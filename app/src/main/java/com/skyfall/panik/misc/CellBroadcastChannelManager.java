@@ -1,8 +1,10 @@
-package com.skyfall.panik;
+package com.skyfall.panik.misc;
 
 import android.annotation.NonNull;
 import android.content.Context;
 import android.util.Log;
+
+import com.skyfall.panik.CBUtils.SmsCbMessage;
 import com.skyfall.panik.CellBroadcastAlertService.AlertType;
 import java.util.ArrayList;
 import java.util.Arrays;

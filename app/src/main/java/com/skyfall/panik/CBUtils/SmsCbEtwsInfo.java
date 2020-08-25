@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 import android.annotation.IntDef;
 import android.annotation.NonNull;

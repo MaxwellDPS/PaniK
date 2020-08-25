@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 class SmsConstants {
     /** User data text encoding code unit size */

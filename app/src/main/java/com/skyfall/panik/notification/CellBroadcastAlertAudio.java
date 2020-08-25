@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.notification;
 
 import static com.skyfall.panik.CellBroadcastAlertService.AlertType;
 import android.app.Service;
@@ -14,8 +14,11 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
+import com.skyfall.panik.R;
+import com.skyfall.panik.misc.CellBroadcastSettings;
+
 public class CellBroadcastAlertAudio extends Service  {
-    private static final String TAG = "CellBroadcastAlertAudio";
+    public static final String TAG = "CellBroadcastAlertAudio";
 
     /** Action to start playing alert audio/vibration/speech. */
     public static final String ACTION_START_ALERT_AUDIO = "ACTION_START_ALERT_AUDIO";

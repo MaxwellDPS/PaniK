@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 public class SmsCbConstants {
 

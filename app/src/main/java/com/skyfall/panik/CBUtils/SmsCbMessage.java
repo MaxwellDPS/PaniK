@@ -1,11 +1,12 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.annotation.IntDef;
 import android.annotation.NonNull;
 import android.annotation.Nullable;
-import com.skyfall.panik.CbGeoUtils.Geometry;
+
+import com.skyfall.panik.CBUtils.CbGeoUtils.Geometry;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;

@@ -2,7 +2,6 @@ package com.skyfall.panik;
 
 
 import android.annotation.SuppressLint;
-import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -14,11 +13,16 @@ import android.content.pm.PackageManager;
 import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.IBinder;
-import android.os.UserHandle;
-import android.provider.Telephony;
-import android.telephony.PhoneStateListener;
-import android.telephony.TelephonyManager;
 import android.util.Log;
+
+import com.skyfall.panik.CBUtils.ETWS;
+import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
+import com.skyfall.panik.CBUtils.SmsCbConstants;
+import com.skyfall.panik.CBUtils.SmsCbEtwsInfo;
+import com.skyfall.panik.CBUtils.SmsCbMessage;
+import com.skyfall.panik.misc.CellBroadcastResources;
+import com.skyfall.panik.notification.CellBroadcastAlertAudio;
+import com.skyfall.panik.notification.CellBroadcastAlertDialog;
 
 import java.util.ArrayList;
 
@@ -241,7 +245,7 @@ public class CellBroadcastAlertService extends Service {
      * @param message the alert to display
      */
     @SuppressLint("StringFormatMatches")
-    static void addToNotificationBar(SmsCbMessage message, ArrayList<SmsCbMessage> messageList, Context context, boolean fromSaveState) {
+    public static void addToNotificationBar(SmsCbMessage message, ArrayList<SmsCbMessage> messageList, Context context, boolean fromSaveState) {
         int channelTitleId = CellBroadcastResources.getDialogTitleResource(context, message);
 
         CharSequence channelName = context.getText(channelTitleId);

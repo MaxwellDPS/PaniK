@@ -1,4 +1,4 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 import android.content.Context;
 
@@ -23,7 +23,7 @@ public class ETWS {
         throw new RuntimeException ("invalid hex char '" + c + "'");
     }
 
-    static SmsCbMessage createFromPdu(Context context, byte[] pdu, int serialNumber, int category) {
+    public static SmsCbMessage createFromPdu(Context context, byte[] pdu, int serialNumber, int category) {
         byte[][] pdus = new byte[1][];
         pdus[0] = pdu;
         return createFromPdus(context, pdus, serialNumber, category);

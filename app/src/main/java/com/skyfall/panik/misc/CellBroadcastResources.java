@@ -1,10 +1,16 @@
-package com.skyfall.panik;
+package com.skyfall.panik.misc;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
+
+import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
+import com.skyfall.panik.CBUtils.SmsCbEtwsInfo;
+import com.skyfall.panik.CBUtils.SmsCbMessage;
+import com.skyfall.panik.R;
+
 import java.text.DateFormat;
 import java.util.ArrayList;
 
@@ -225,7 +231,7 @@ public class CellBroadcastResources {
         }
     }
 
-    static int getDialogTitleResource(Context context, SmsCbMessage message) {
+    public static int getDialogTitleResource(Context context, SmsCbMessage message) {
         // ETWS warning types
         SmsCbEtwsInfo etwsInfo = message.getEtwsWarningInfo();
         if (etwsInfo != null) {
@@ -336,7 +342,7 @@ public class CellBroadcastResources {
      *
      * @return The resource of the pictogram, -1 if not available.
      */
-    static int getDialogPictogramResource(Context context, SmsCbMessage message) {
+    public static int getDialogPictogramResource(Context context, SmsCbMessage message) {
         SmsCbEtwsInfo etwsInfo = message.getEtwsWarningInfo();
         if (etwsInfo != null) {
             switch (etwsInfo.getWarningType()) {

@@ -1,15 +1,16 @@
-package com.skyfall.panik;
+package com.skyfall.panik.CBUtils;
 
 
-import static com.skyfall.panik.SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE;
-import static com.skyfall.panik.SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE_AND_TSUNAMI;
-import static com.skyfall.panik.SmsCbEtwsInfo.ETWS_WARNING_TYPE_OTHER_EMERGENCY;
-import static com.skyfall.panik.SmsCbEtwsInfo.ETWS_WARNING_TYPE_TEST_MESSAGE;
-import static com.skyfall.panik.SmsCbEtwsInfo.ETWS_WARNING_TYPE_TSUNAMI;
+import static com.skyfall.panik.CBUtils.SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE;
+import static com.skyfall.panik.CBUtils.SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE_AND_TSUNAMI;
+import static com.skyfall.panik.CBUtils.SmsCbEtwsInfo.ETWS_WARNING_TYPE_OTHER_EMERGENCY;
+import static com.skyfall.panik.CBUtils.SmsCbEtwsInfo.ETWS_WARNING_TYPE_TEST_MESSAGE;
+import static com.skyfall.panik.CBUtils.SmsCbEtwsInfo.ETWS_WARNING_TYPE_TSUNAMI;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.Pair;
+
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;

@@ -14,12 +14,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-           <!-- <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter> -->
-        </activity>
 
         <activity android:name=".userActivity">
             <intent-filter>
@@ -28,23 +22,22 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".stealthAct" android:exported="true" android:showOnLockScreen="true" android:launchMode="singleTask">
 
-        </activity>
+
 
         <!-- Settings opened by ListActivity menu, Settings app link or opt-out dialog. -->
-        <activity android:name=".CellBroadcastSettings"
+        <activity android:name=".misc.CellBroadcastSettings"
             android:label="@string/sms_cb_settings"
             android:exported="true"  />
 
-        <activity android:name=".CellBroadcastAlertDialog"
+        <activity android:name=".notification.CellBroadcastAlertDialog"
             android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
             android:launchMode="singleTask"
             android:exported="false"
             android:excludeFromRecents="true"
             android:configChanges="orientation|keyboardHidden|keyboard|navigation">
         </activity>
-        <service android:enabled="true" android:name=".CellBroadcastAlertAudio" />
+        <service android:enabled="true" android:name=".notification.CellBroadcastAlertAudio" />
         <service android:enabled="true" android:name=".CellBroadcastAlertService" />
     </application>
 
