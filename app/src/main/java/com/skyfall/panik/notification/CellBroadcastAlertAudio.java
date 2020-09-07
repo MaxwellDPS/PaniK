@@ -8,11 +8,14 @@ import android.content.res.Resources;
 import android.media.AudioAttributes;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
+
+import androidx.annotation.RequiresApi;
 
 import com.skyfall.panik.R;
 import com.skyfall.panik.misc.CellBroadcastSettings;
@@ -90,6 +93,7 @@ public class CellBroadcastAlertAudio extends Service  {
         return null;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         // No intent, tell the system not to restart us.
@@ -118,6 +122,7 @@ public class CellBroadcastAlertAudio extends Service  {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.N)
     private void playAlertTone(AlertType alertType ) {
         // stop() checks to see if we are already playing.
         stop();
@@ -147,7 +152,7 @@ public class CellBroadcastAlertAudio extends Service  {
 
 
         try {
-            log("Locale=" + res.getConfiguration().getLocales() + ", alertType=" + alertType);
+            log("Locale=" + res.getConfiguration().get .getLocales() + ", alertType=" + alertType);
             // Load the tones based on type
             switch (alertType) {
                 case ETWS_EARTHQUAKE:

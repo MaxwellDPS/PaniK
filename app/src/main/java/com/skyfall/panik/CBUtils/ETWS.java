@@ -2,6 +2,10 @@ package com.skyfall.panik.CBUtils;
 
 import android.content.Context;
 
+import java.nio.ByteBuffer;
+import java.nio.charset.StandardCharsets;
+
+
 public class ETWS {
 
     public static byte[]  hexStringToBytes(String s) {
@@ -15,6 +19,24 @@ public class ETWS {
         }
         return ret;
     }
+
+
+    public static SmsCbMessage createFromString(Context context, byte[] pdu, String message, int serialNumber, int category) {
+       byte [] Mess = message.getBytes(StandardCharsets.UTF_16LE);
+        byte[] allByteArray = new byte[pdu.length + Mess.length];
+
+        ByteBuffer buff = ByteBuffer.wrap(allByteArray);
+        buff.put(pdu);
+        buff.put(Mess);
+        byte[] pduMessgae = buff.array();
+
+        byte[][] pdus = new byte[1][];
+        pdus[0] = pduMessgae;
+        SmsCbMessage result = createFromPdus(context, pdus, serialNumber, category);
+        //SmsCbMessage test = new SmsCbMessage();
+        return result;
+    }
+
 
     public static int hexCharToInt(char c) {
         if (c >= '0' && c <= '9') return (c - '0');

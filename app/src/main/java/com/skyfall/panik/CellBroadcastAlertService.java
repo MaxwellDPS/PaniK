@@ -11,9 +11,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
+
+import androidx.core.content.pm.PackageInfoCompat;
+
+
+import androidx.annotation.RequiresApi;
 
 import com.skyfall.panik.CBUtils.ETWS;
 import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
@@ -120,6 +126,28 @@ public class CellBroadcastAlertService extends Service {
 
     }
 
+    static int getETWSMessageClass(int messageId) {
+        switch (messageId) {
+            case SmsCbConstants.MESSAGE_ID_ETWS_EARTHQUAKE_WARNING:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE;
+
+            case SmsCbConstants.MESSAGE_ID_ETWS_EARTHQUAKE_AND_TSUNAMI_WARNING:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_EARTHQUAKE_AND_TSUNAMI;
+
+            case SmsCbConstants.MESSAGE_ID_ETWS_TSUNAMI_WARNING:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_TSUNAMI;
+
+            case SmsCbConstants.MESSAGE_ID_ETWS_OTHER_EMERGENCY_TYPE:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_OTHER_EMERGENCY;
+
+            case SmsCbConstants.MESSAGE_ID_ETWS_TEST_MESSAGE:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_TEST_MESSAGE;
+
+            default:
+                return SmsCbEtwsInfo.ETWS_WARNING_TYPE_UNKNOWN;
+        }
+    }
+
     static int getCmasMessageClass(int messageId) {
         switch (messageId) {
             case SmsCbConstants.MESSAGE_ID_CMAS_ALERT_PRESIDENTIAL_LEVEL:
@@ -173,6 +201,10 @@ public class CellBroadcastAlertService extends Service {
     static final byte[] etwsMessageNormal = ETWS.hexStringToBytes("000011001101" + "EA305BAE57CE770C531790E85C716CBF3044573065B930675730" + "9707767A751F30025F37304463FA308C306B5099304830664E0B30553044FF086C178C615E81FF09" +  "0000000000000000000000000000");
     static final byte[] etwsMessageCancel = ETWS.hexStringToBytes("000011001101" + "EA305148307B3069002800310030003A0035" + "00320029306E7DCA602557309707901F5831309253D66D883057307E3059FF086C178C615E81FF09" +   "00000000000000000000000000000000000000000000");
     static final byte[] etwsMessageTest = ETWS.hexStringToBytes("000011031101" + "EA305BAE57CE770C531790E85C716CBF3044" +    "573065B9306757309707300263FA308C306B5099304830664E0B30553044FF086C178C615E81FF09" +   "00000000000000000000000000000000000000000000");
+    static final byte[] etwsMessageMax = ETWS.hexStringToBytes("000011001101" + "0074006500730074" +  "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000");
+    static final byte[] etwsMessageBase = ETWS.hexStringToBytes("000011001101");
+    static final byte[] etwsTestBase = ETWS.hexStringToBytes("000011031101");
+
     static final String PRES_ALERT = "THE PRESIDENT HAS ISSUED AN EMERGENCY ALERT. CHECK LOCAL MEDIA FOR MORE DETAILS";
     static final String EXTREME_ALERT = "FLASH FLOOD WARNING FOR SOUTH COCONINO COUNTY - NORTH CENTRAL ARIZONA UNTIL 415 PM MST";
     static final String SEVERE_ALERT = "SEVERE WEATHER WARNING FOR SOMERSET COUNTY - NEW JERSEY UNTIL 415 PM MST";
@@ -244,6 +276,7 @@ public class CellBroadcastAlertService extends Service {
      * high-priority immediate intent for emergency alerts.
      * @param message the alert to display
      */
+    @RequiresApi(api = Build.VERSION_CODES.O)
     @SuppressLint("StringFormatMatches")
     public static void addToNotificationBar(SmsCbMessage message, ArrayList<SmsCbMessage> messageList, Context context, boolean fromSaveState) {
         int channelTitleId = CellBroadcastResources.getDialogTitleResource(context, message);
@@ -318,6 +351,7 @@ public class CellBroadcastAlertService extends Service {
      * Creates the notification channel and registers it with NotificationManager. If a channel
      * with the same ID is already registered, NotificationManager will ignore this call.
      */
+    @RequiresApi(api = Build.VERSION_CODES.O)
     static void createNotificationChannels(Context context) {
         NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.createNotificationChannel(new NotificationChannel(NOTIFICATION_CHANNEL_EMERGENCY_ALERTS,   context.getString(R.string.notification_channel_emergency_alerts), NotificationManager.IMPORTANCE_LOW));

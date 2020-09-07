@@ -18,6 +18,7 @@ import android.widget.Switch;
 import com.skyfall.panik.CBUtils.ETWS;
 import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
 import com.skyfall.panik.CBUtils.SmsCbConstants;
+import com.skyfall.panik.CBUtils.SmsCbEtwsInfo;
 import com.skyfall.panik.CBUtils.SmsCbLocation;
 import com.skyfall.panik.CBUtils.SmsCbMessage;
 
@@ -46,9 +47,25 @@ public class userActivity extends Activity{
             return msg;
         }
 
-    static SmsCbMessage createETWSMessage(Activity activity, byte[] Msg, int type) {
-        SmsCbMessage message = ETWS.createFromPdu(activity, Msg, getSerialNumber(), type );
+    static SmsCbMessage createETWSMessage(Activity activity, byte[] Msg, int serviceCategory ) {
+        SmsCbMessage message = ETWS.createFromPdu(activity, Msg, getSerialNumber(), serviceCategory);
        return message;
+
+    }
+
+    static SmsCbMessage createETWSMessage2(int serviceCategory, String body, int priority) {
+        int messageClass = CellBroadcastAlertService.getETWSMessageClass(serviceCategory);
+        SmsCbEtwsInfo etwsInfo =
+                new SmsCbEtwsInfo(
+                        messageClass,
+                        true,
+                        true,
+                        true,
+                        null
+                );
+
+        SmsCbMessage msg = new SmsCbMessage(SmsCbMessage.MESSAGE_FORMAT_3GPP,0, getSerialNumber(), new SmsCbLocation("1234"), serviceCategory, "en", body, priority, etwsInfo, null, 0,0);
+        return msg;
 
     }
 
@@ -183,7 +200,8 @@ public class userActivity extends Activity{
         if (Type == 0){
             AlertIntent.putExtra(CellBroadcastAlertService.EXTRA_MESSAGE, createCmasSmsMessage(serviceCategory, body, priority));
         }else{
-            AlertIntent.putExtra(CellBroadcastAlertService.EXTRA_MESSAGE, createETWSMessage(activity, CellBroadcastAlertService.etwsMessageNormal, serviceCategory));
+            //AlertIntent.putExtra(CellBroadcastAlertService.EXTRA_MESSAGE, createETWSMessage(activity, CellBroadcastAlertService.etwsMessageBase, body, priority,  serviceCategory));
+            AlertIntent.putExtra(CellBroadcastAlertService.EXTRA_MESSAGE, createETWSMessage2(serviceCategory, body, priority));
         }
         startService(AlertIntent);
     }

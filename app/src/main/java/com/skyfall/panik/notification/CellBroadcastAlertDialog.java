@@ -13,6 +13,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Point;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -35,6 +36,10 @@ import android.view.textclassifier.TextLinks;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+
+import androidx.annotation.RequiresApi;
+
 import com.skyfall.panik.CBUtils.SmsCbCmasInfo;
 import com.skyfall.panik.CBUtils.SmsCbMessage;
 import com.skyfall.panik.CellBroadcastAlertService;
@@ -185,7 +190,7 @@ public class CellBroadcastAlertDialog extends Activity {
          *
          * @return true if successful; false if any field failed to initialize
          */
-        @SuppressLint("UseCompatLoadingForDrawables")
+        @SuppressLint({"UseCompatLoadingForDrawables", "LongLogTag"})
         private boolean initDrawableAndImageView(int subId) {
             if (mWarningIcon == null) {
                 try {
@@ -220,6 +225,7 @@ public class CellBroadcastAlertDialog extends Activity {
         ScreenOffHandler() {}
 
         /** Add screen on window flags and queue a delayed message to remove them later. */
+        @SuppressLint("LongLogTag")
         void startScreenOnTimer() {
             addWindowFlags();
             int msgWhat = mCount.incrementAndGet();
@@ -246,6 +252,7 @@ public class CellBroadcastAlertDialog extends Activity {
                     | WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         }
 
+        @SuppressLint("LongLogTag")
         @Override
         public void handleMessage(Message msg) {
             int msgWhat = msg.what;
@@ -258,6 +265,8 @@ public class CellBroadcastAlertDialog extends Activity {
         }
     }
 
+    @SuppressLint("LongLogTag")
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -354,6 +363,7 @@ public class CellBroadcastAlertDialog extends Activity {
     /**
      * Stop animating warning icon.
      */
+    @SuppressLint("LongLogTag")
     @Override
     public void onPause() {
         Log.d(TAG, "onPause called");
@@ -361,6 +371,8 @@ public class CellBroadcastAlertDialog extends Activity {
         super.onPause();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    @SuppressLint("LongLogTag")
     @Override
     protected void onStop() {
         Log.d(TAG, "onStop called");
@@ -394,6 +406,7 @@ public class CellBroadcastAlertDialog extends Activity {
     }
 
     /** Returns the currently displayed message. */
+    @SuppressLint("LongLogTag")
     SmsCbMessage getLatestMessage() {
         int index = mMessageList.size() - 1;
         if (index >= 0) {
@@ -442,6 +455,7 @@ public class CellBroadcastAlertDialog extends Activity {
     }
 
 
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     private void addLinks(@NonNull TextView textView, @NonNull String messageText,
                           @LinkMethod int linkMethod) {
         Spannable text = new SpannableString(messageText);
@@ -453,6 +467,7 @@ public class CellBroadcastAlertDialog extends Activity {
             // Text classification cannot be run in the main thread.
             new Thread(() -> {
                 final TextClassifier classifier = textView.getTextClassifier();
+
 
                 TextClassifier.EntityConfig entityConfig =
                         new TextClassifier.EntityConfig.Builder()
@@ -487,6 +502,7 @@ public class CellBroadcastAlertDialog extends Activity {
      * Update alert text when a new emergency alert arrives.
      * @param message CB message which is used to update alert text.
      */
+    @RequiresApi(api = Build.VERSION_CODES.Q)
     private void updateAlertText(@NonNull SmsCbMessage message) {
         Context context = getApplicationContext();
         int titleId = CellBroadcastResources.getDialogTitleResource(context, message);
@@ -577,6 +593,8 @@ public class CellBroadcastAlertDialog extends Activity {
      * Called by {@link CellBroadcastAlertService} to add a new alert to the stack.
      * @param intent The new intent containing one or more {@link SmsCbMessage}.
      */
+    @RequiresApi(api = Build.VERSION_CODES.Q)
+    @SuppressLint("LongLogTag")
     @Override
     public void onNewIntent(Intent intent) {
         ArrayList<SmsCbMessage> newMessageList = intent.getParcelableArrayListExtra(CellBroadcastAlertService.SMS_CB_MESSAGE_EXTRA);
@@ -641,6 +659,8 @@ public class CellBroadcastAlertDialog extends Activity {
      * Stop animating warning icon and stop the {@link CellBroadcastAlertAudio}
      * service if necessary.
      */
+    @RequiresApi(api = Build.VERSION_CODES.Q)
+    @SuppressLint("LongLogTag")
     public void dismiss() {
         Log.d(TAG, "dismiss");
         // Stop playing alert sound/vibration/speech (if started)
@@ -687,6 +707,7 @@ public class CellBroadcastAlertDialog extends Activity {
         finish();
     }
 
+    @SuppressLint("LongLogTag")
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         Log.d(TAG, "onKeyDown: " + event);
