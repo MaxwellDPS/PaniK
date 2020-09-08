@@ -18,10 +18,10 @@ API 23 Android 6 - API 29 Android 10 is supported
 | CMAS | Severe alert                  | ETWS | ETWS Earthquake & Tsunami  alert |
 | CMAS | Amber / Child Abduction alert | ETWS | ETWS Other Message               |
 | CMAS | Public Safety alert           | ETWS | ETWS Test Message                |
-| CMAS | Required Monthly Test         |      |             |                                  |
-| CMAS | Local/State Test              |      |             |                                  |
-| CMAS | Broadcast Operator alert      |      |             |                                  |
-| CMAS | Critical alert                |      |             |                                  |
+| CMAS | Required Monthly Test         | 
+| CMAS | Local/State Test              |
+| CMAS | Broadcast Operator alert      |
+| CMAS | Critical alert                |
 
 
 ### Examples
