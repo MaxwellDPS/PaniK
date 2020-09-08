@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- None -->
+    <string-array name="cmas_presidential_alerts_channels_range_strings" translatable="false">
+    </string-array>
+    <!-- 4370 -->
+    <string-array name="cmas_alert_extreme_channels_range_strings" translatable="false">
+        <item>0x1112:rat=gsm, emergency=true</item>
+        <!-- additional language -->
+        <item>0x111F:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- 4371-4372 -->
+    <string-array name="cmas_alerts_severe_range_strings" translatable="false">
+        <item>0x1113-0x1114:rat=gsm, emergency=false</item>
+        <!-- additional language -->
+        <item>0x1120-0x1121:rat=gsm, emergency=false, filter_language=true</item>
+        <item>0x397-0x39A:rat=gsm, emergency=false, filter_language=true</item>
+    </string-array>
+    <!-- 4373~4378, 4386~4391 -->
+    <string-array name="public_safety_messages_channels_range_strings" translatable="false">
+        <item>0x1115-0x111A:rat=gsm, emergency=false</item>
+        <!-- additional language -->
+        <item>0x1122-0x1127:rat=gsm, emergency=false, filter_language=true</item>
+    </string-array>
+    <!-- 4380, 4393 -->
+    <string-array name="required_monthly_test_range_strings" translatable="false">
+        <item>0x111C:rat=gsm, emergency=false</item>
+        <!-- additional language -->
+        <item>0x1129:rat=gsm, emergency=false, filter_language=true</item>
+    </string-array>
+    <!-- 4381, 4394 -->
+    <string-array name="exercise_alert_range_strings" translatable="false">
+        <item>0x111D:rat=gsm, emergency=false</item>
+        <!-- additional language -->
+        <item>0x112A:rat=gsm, emergency=false, filter_language=true</item>
+    </string-array>
+    <!-- 4379, 4392-->
+    <string-array name="cmas_amber_alerts_channels_range_strings" translatable="false">
+        <item>0x111B:rat=gsm, emergency=false</item>
+        <!-- additional language -->
+        <item>0x1128:rat=gsm, emergency=false, filter_language=true</item>
+    </string-array>
+    <string-array name="operator_defined_alert_range_strings" translatable="false"></string-array>
+    <string-array name="etws_test_alerts_range_strings" translatable="false"></string-array>
+
+    <!-- Amber alerts toggle default value -->
+    <bool name="amber_alerts_enabled_default">false</bool>
+</resources>

@@ -1,7 +1,11 @@
 package com.skyfall.panik.CBUtils;
 
 import android.annotation.NonNull;
+import android.os.Build;
 import android.text.TextUtils;
+
+import androidx.annotation.RequiresApi;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -107,6 +111,7 @@ public class CbGeoUtils {
          *
          * The longitude difference in the vertices should be less than 180 degrees.
          */
+        @RequiresApi(api = Build.VERSION_CODES.N)
         public Polygon(@NonNull List<LatLng> vertices) {
             mVertices = vertices;
             // Find the point with smallest longitude as the mOrigin point.
@@ -301,6 +306,7 @@ public class CbGeoUtils {
      * geometry encoding specified by {@link android.provider.Telephony.CellBroadcasts#GEOMETRIES}.
      * @hide
      */
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @NonNull
     public static List<Geometry> parseGeometriesFromString(@NonNull String str) {
         List<Geometry> geometries = new ArrayList<>();
@@ -332,6 +338,7 @@ public class CbGeoUtils {
      * @return the encoded string.
      * @hide
      */
+    @RequiresApi(api = Build.VERSION_CODES.N)
     @NonNull
     public static String encodeGeometriesToString(List<Geometry> geometries) {
         if (geometries == null || geometries.isEmpty()) return "";

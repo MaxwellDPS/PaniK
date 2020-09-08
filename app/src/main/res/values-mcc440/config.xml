@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Whether to show extreme alert settings -->
+    <bool name="show_extreme_alert_settings">false</bool>
+    <!-- Whether to show severe alert settings -->
+    <bool name="show_severe_alert_settings">false</bool>
+    <!-- Whether to show amber alert settings -->
+    <bool name="show_amber_alert_settings">false</bool>
+
+    <!-- Whether to show override dnd settings -->
+    <bool name="show_override_dnd_settings">true</bool>
+    <!-- Play alert sound in full volume regardless Do Not Disturb is on -->
+    <bool name="override_dnd_default">true</bool>
+    <!-- Whether to compare message body when performing message duplicate dection -->
+    <bool name="duplicate_compare_body">true</bool>
+    <!-- Whether the emergency alert notification is non-swipeable -->
+    <bool name="non_swipeable_notification">true</bool>
+    <!-- Whether the user can mute the alert by physical button -->
+    <bool name="mute_by_physical_button">false</bool>
+</resources>

@@ -3,8 +3,12 @@ package com.skyfall.panik.CBUtils;
 import android.annotation.IntDef;
 import android.annotation.NonNull;
 import android.annotation.Nullable;
+import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
+
+import androidx.annotation.RequiresApi;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.time.DateTimeException;
@@ -140,6 +144,7 @@ public final class SmsCbEtwsInfo implements Parcelable {
 
         return ret;
     }
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public long getPrimaryNotificationTimestamp() {
         if (mWarningSecurityInformation == null || mWarningSecurityInformation.length < 7) {
             return 0;
