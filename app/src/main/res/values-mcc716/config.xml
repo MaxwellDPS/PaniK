@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Whether to show extreme alert settings -->
+    <bool name="show_extreme_alert_settings">false</bool>
+    <!-- Whether to show severe alert settings -->
+    <bool name="show_severe_alert_settings">false</bool>
+    <!-- Whether to show amber alert settings -->
+    <bool name="show_amber_alert_settings">false</bool>
+
+    <!-- 4370, 4383, 50, 919 -->
+    <!-- Emergecny alert tone duration set to 3 minute for Peru users -->
+    <string-array name="cmas_presidential_alerts_channels_range_strings" translatable="false">
+        <item>0x1112:rat=gsm, emergency=true, alert_duration=180000</item>
+        <item>0x111F:rat=gsm, emergency=true, alert_duration=180000</item>
+        <item>0x397:rat=gsm, emergency=true, alert_duration=180000</item>
+        <item>0x032:rat=gsm, emergency=true, alert_duration=180000</item>
+    </string-array>
+    <!-- 4382 -->
+    <string-array name="public_safety_messages_channels_range_strings" translatable="false">
+        <item>0x111E:rat=gsm, emergency=true, alert_duration=180000</item>
+    </string-array>
+
+    <!--4380, 519 -->
+    <string-array name="required_monthly_test_range_strings" translatable="false">
+        <item>0x111C:rat=gsm, emergency=true, alert_duration=180000</item>
+        <item>0x207:rat=gsm, emergency=true, alert_duration=180000</item>
+    </string-array>
+
+    <!--4381 -->
+    <string-array name="exercise_alert_range_strings" translatable="false">
+        <item>0x111D:rat=gsm, emergency=true, alert_duration=180000</item>
+    </string-array>
+
+    <!-- 4396~4399-->
+    <string-array name="additional_cbs_channels_strings" translatable="false">
+        <item>0x112C-0x112F:rat=gsm, emergency=true, alert_duration=180000</item>
+    </string-array>
+
+    <string-array name="cmas_alert_extreme_channels_range_strings" translatable="false"></string-array>
+    <string-array name="cmas_alerts_severe_range_strings" translatable="false"></string-array>
+    <string-array name="cmas_amber_alerts_channels_range_strings" translatable="false"></string-array>
+    <string-array name="operator_defined_alert_range_strings" translatable="false"></string-array>
+    <string-array name="etws_test_alerts_range_strings" translatable="false"></string-array>
+    <bool name="show_date_time_title">true</bool>
+
+    <!-- Play alert sound in full volume regardless Do Not Disturb is on -->
+    <bool name="override_dnd_default">true</bool>
+
+    <!-- Link method -->
+    <string name="link_method" translatable="false">none</string>
+
+    <!-- Hide public safety settings per Peru users -->
+    <bool name="show_public_safety_settings">false</bool>
+
+    <!-- Whether the user can mute the alert by physical button -->
+    <bool name="mute_by_physical_button">false</bool>
+</resources>

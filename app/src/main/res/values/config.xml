@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Whether to show override dnd settings -->
-    <bool name="show_override_dnd_settings">false</bool>
     <!-- The default value for overriding dnd settings-->
     <bool name="override_dnd_default">false</bool>
     <!-- Whether to show presidential alert settings -->
@@ -111,7 +110,7 @@
         <!-- additional language -->
         <item>0x112A:rat=gsm, emergency=true</item>
     </string-array>
-    <string-array name="operator_defined_alert_range_strings" translatable="false">
+    <string-array name="operator_defined_alert_range_strings" translatable="false" tools:ignore="InconsistentArrays">
         <item>0x111E:rat=gsm, emergency=true</item>
         <!-- additional language -->
         <item>0x112B:rat=gsm, emergency=true</item>

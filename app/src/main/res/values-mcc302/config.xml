@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Values that are active in the ListPreference.
+         These must be a subset of the alert_reminder_interval_values list above. -->
+    <string-array name="alert_reminder_interval_active_values" translatable="false">
+      <item>1</item>
+      <item>2</item>
+      <item>5</item>
+      <item>0</item>
+    </string-array>
+
+    <!-- Default value that in the ListPreference.
+         These must be a subset of the alert_reminder_interval_values list above. -->
+    <string name="alert_reminder_interval_in_min_default" translatable="false">2</string>
+
+    <!-- Values that for the vibration pattern. -->
+    <integer-array name="default_vibration_pattern">
+        <item>0</item>      <!-- the number of milliseconds to wait before turning the vibrator on -->
+        <item>500</item>    <!-- the number of milliseconds for which to keep the vibrator on before turning it off -->
+        <item>500</item>    <!-- Subsequent values alternate between durations in milliseconds to turn the vibrator off or to turn the vibrator on -->
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+        <item>500</item>
+     </integer-array>
+</resources>

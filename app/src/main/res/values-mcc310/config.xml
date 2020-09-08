@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Specify second language code to receive emergency alerts -->
+    <string name="emergency_alert_second_language_code" translatable="false">es</string>
+    <!-- 4370, 4383 -->
+    <string-array name="cmas_presidential_alerts_channels_range_strings" translatable="false">
+        <item>0x1112:rat=gsm, emergency=true</item>
+        <item>0x1000:rat=cdma, emergency=true</item>
+        <!-- additional language -->
+        <item>0x111F:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- 4371~4372, 4384~4385 -->
+    <string-array name="cmas_alert_extreme_channels_range_strings" translatable="false">
+        <item>0x1113-0x1114:rat=gsm, emergency=true</item>
+        <item>0x1001:rat=cdma, emergency=true</item>
+        <!-- additional language -->
+        <item>0x1120-0x1121:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- 4373~4378, 4386~4391 -->
+    <string-array name="cmas_alerts_severe_range_strings" translatable="false">
+        <item>0x1115-0x111A:rat=gsm, emergency=true</item>
+        <item>0x1002:rat=cdma, emergency=true</item>
+        <!-- additional language -->
+        <item>0x1122-0x1127:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- 4379, 4392 -->
+    <string-array name="cmas_amber_alerts_channels_range_strings" translatable="false">
+        <item>0x111B:rat=gsm, emergency=true</item>
+        <item>0x1003:rat=cdma, emergency=true</item>
+        <!-- additional language -->
+        <item>0x1128:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- 4380~4382, 4393~4395 -->
+    <string-array name="required_monthly_test_range_strings" translatable="false">
+        <item>0x111C:rat=gsm, emergency=true</item>
+        <item>0x1004:rat=cdma, emergency=true</item>
+        <!-- additional language -->
+        <item>0x1129:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <string-array name="exercise_alert_range_strings" translatable="false">
+        <item>0x111D:rat=gsm, emergency=true</item>
+        <!-- additional language -->
+        <item>0x112A:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <string-array name="operator_defined_alert_range_strings" translatable="false">
+        <item>0x111E:rat=gsm, emergency=true</item>
+        <!-- additional language -->
+        <item>0x112B:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <string-array name="public_safety_messages_channels_range_strings" translatable="false">
+        <!-- Public safety messages -->
+        <item>0x112C:rat=gsm, emergency=true</item>
+        <!-- Public safety messages for additional language -->
+        <item>0x112D:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- Channels to receive state/local test messages -->
+    <string-array name="state_local_test_alert_range_strings" translatable="false">
+        <!-- state/local test -->
+        <item>0x112E:rat=gsm, emergency=true</item>
+        <!-- state/local test additional language -->
+        <item>0x112F:rat=gsm, emergency=true, filter_language=true</item>
+    </string-array>
+    <!-- Channels to receive geo-fencing trigger messages -->
+    <string-array name="geo_fencing_trigger_messages_range_strings" translatable="false">
+        <!-- geo-fencing trigger messages -->
+        <item>0x1130:rat=gsm, emergency=true</item>
+    </string-array>
+
+    <!-- Text links generating method. U.S does not allow text to be copied, so
+         we can't use smart linkify. -->
+    <string name="link_method" translatable="false">legacy_linkify</string>
+
+    <!-- Whether enabling copy message text into clipboard by long press.
+         FCC does not allow message to be copied/pasted -->
+    <bool name="enable_text_copy">false</bool>
+</resources>

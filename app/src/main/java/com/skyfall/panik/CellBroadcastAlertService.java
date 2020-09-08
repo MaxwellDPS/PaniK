@@ -2,6 +2,10 @@ package com.skyfall.panik;
 
 
 import android.annotation.SuppressLint;
+//import android.app.Notification;
+//import android.app.NotificationChannel;
+//import android.app.NotificationManager;
+
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -16,6 +20,9 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
 
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationCompatExtras;
 import androidx.core.content.pm.PackageInfoCompat;
 
 
@@ -276,7 +283,7 @@ public class CellBroadcastAlertService extends Service {
      * high-priority immediate intent for emergency alerts.
      * @param message the alert to display
      */
-    @RequiresApi(api = Build.VERSION_CODES.O)
+    //@RequiresApi(api = Build.VERSION_CODES.O)
     @SuppressLint("StringFormatMatches")
     public static void addToNotificationBar(SmsCbMessage message, ArrayList<SmsCbMessage> messageList, Context context, boolean fromSaveState) {
         int channelTitleId = CellBroadcastResources.getDialogTitleResource(context, message);
@@ -284,7 +291,7 @@ public class CellBroadcastAlertService extends Service {
         CharSequence channelName = context.getText(channelTitleId);
         String messageBody = message.getMessageBody();
 
-        final NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+        final android.app.NotificationManager notificationManager = (android.app.NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         createNotificationChannels(context);
 
         // Create intent to show the new messages when user selects the notification.
@@ -300,20 +307,32 @@ public class CellBroadcastAlertService extends Service {
             pi = PendingIntent.getActivity(context, NOTIFICATION_ID, intent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
         }
 
-
+        NotificationCompat.Builder builder;
         String channelId = NOTIFICATION_CHANNEL_EMERGENCY_ALERTS ;
 
-        // use default sound/vibration/lights for non-emergency broadcasts
-        Notification.Builder builder =
-                new Notification.Builder(context, channelId)
-                        .setSmallIcon(R.drawable.ic_warning_googred)
-                        .setTicker(channelName)
-                        .setWhen(System.currentTimeMillis())
-                        .setCategory(Notification.CATEGORY_SYSTEM)
-                        .setPriority(Notification.PRIORITY_HIGH)
-                        .setColor(context.getResources().getColor(R.color.notification_color))
-                        .setVisibility(Notification.VISIBILITY_PUBLIC)
-                        .setOngoing(false);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            // use default sound/vibration/lights for non-emergency broadcasts
+           builder = new NotificationCompat.Builder(context, channelId)
+                            .setSmallIcon(R.drawable.ic_warning_googred)
+                            .setTicker(channelName)
+                            .setWhen(System.currentTimeMillis())
+                            .setCategory(Notification.CATEGORY_SYSTEM)
+                            .setPriority(Notification.PRIORITY_HIGH)
+                            .setColor(context.getResources().getColor(R.color.notification_color))
+                            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                            .setOngoing(false);
+        }else{
+            // use default sound/vibration/lights for non-emergency broadcasts
+            builder =  new NotificationCompat.Builder(context, channelId)
+                            .setSmallIcon(R.drawable.ic_warning_googred)
+                            .setTicker(channelName)
+                            .setWhen(System.currentTimeMillis())
+                            .setCategory(Notification.CATEGORY_SYSTEM)
+                            .setPriority(Notification.PRIORITY_HIGH)
+                            //.setColor(context.getResources().getColor(R.color.notification_color))
+                            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+                            .setOngoing(false);
+        }
 
         if (context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_WATCH)) {
             builder.setDeleteIntent(pi);
@@ -322,7 +341,7 @@ public class CellBroadcastAlertService extends Service {
         } else {
             builder.setContentIntent(pi);
             // This will break vibration on FEATURE_WATCH, so use it for anything else
-            builder.setDefaults(Notification.DEFAULT_ALL);
+            builder.setDefaults(android.app.Notification.DEFAULT_ALL);
         }
 
         // increment unread alert count (decremented when user dismisses alert dialog)
@@ -334,7 +353,7 @@ public class CellBroadcastAlertService extends Service {
         } else {
             builder.setContentTitle(channelName)
                     .setContentText(messageBody)
-                    .setStyle(new Notification.BigTextStyle()
+                    .setStyle(new NotificationCompat.BigTextStyle()
                             .bigText(messageBody));
         }
 
@@ -351,18 +370,37 @@ public class CellBroadcastAlertService extends Service {
      * Creates the notification channel and registers it with NotificationManager. If a channel
      * with the same ID is already registered, NotificationManager will ignore this call.
      */
-    @RequiresApi(api = Build.VERSION_CODES.O)
+    //@RequiresApi(api = Build.VERSION_CODES.O)
+    //@RequiresApi(api = Build.VERSION_CODES.O)
     static void createNotificationChannels(Context context) {
-        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.createNotificationChannel(new NotificationChannel(NOTIFICATION_CHANNEL_EMERGENCY_ALERTS,   context.getString(R.string.notification_channel_emergency_alerts), NotificationManager.IMPORTANCE_LOW));
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(context);
 
-        final NotificationChannel nonEmergency = new NotificationChannel(NOTIFICATION_CHANNEL_NON_EMERGENCY_ALERTS, context.getString(R.string.notification_channel_broadcast_messages), NotificationManager.IMPORTANCE_DEFAULT);
-        nonEmergency.enableVibration(true);
-        notificationManager.createNotificationChannel(nonEmergency);
+        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context.getApplicationContext(), context.getString(R.string.notification_channel_emergency_alerts));
+        Intent ii = new Intent(context.getApplicationContext(), CellBroadcastAlertService.class);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, ii, 0);
 
-        final NotificationChannel emergencyAlertInVoiceCall = new NotificationChannel(NOTIFICATION_CHANNEL_EMERGENCY_ALERTS_IN_VOICECALL, context.getString(R.string.notification_channel_broadcast_messages_in_voicecall), NotificationManager.IMPORTANCE_HIGH);
-        emergencyAlertInVoiceCall.enableVibration(true);
-        notificationManager.createNotificationChannel(emergencyAlertInVoiceCall);
+        NotificationCompat.BigTextStyle bigText = new NotificationCompat.BigTextStyle();
+        bigText.setBigContentTitle(context.getString(R.string.notification_channel_emergency_alerts));
+
+        mBuilder.setContentIntent(pendingIntent);
+        mBuilder.setSmallIcon(R.drawable.ic_warning_googred);
+        mBuilder.setContentTitle(context.getString(R.string.notification_channel_emergency_alerts));
+        mBuilder.setPriority(Notification.PRIORITY_MAX);
+
+        NotificationManager mNotificationManager =  (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            notificationManager.createNotificationChannel(new NotificationChannel(NOTIFICATION_CHANNEL_EMERGENCY_ALERTS,   context.getString(R.string.notification_channel_emergency_alerts), NotificationManager.IMPORTANCE_LOW));
+            final  NotificationChannel nonEmergency = new NotificationChannel(NOTIFICATION_CHANNEL_NON_EMERGENCY_ALERTS, context.getString(R.string.notification_channel_broadcast_messages), NotificationManager.IMPORTANCE_DEFAULT);
+            nonEmergency.enableVibration(true);
+            notificationManager.createNotificationChannel(nonEmergency);
+
+            final NotificationChannel emergencyAlertInVoiceCall = new NotificationChannel(NOTIFICATION_CHANNEL_EMERGENCY_ALERTS_IN_VOICECALL, context.getString(R.string.notification_channel_broadcast_messages_in_voicecall), NotificationManager.IMPORTANCE_HIGH);
+            emergencyAlertInVoiceCall.enableVibration(true);
+            notificationManager.createNotificationChannel(emergencyAlertInVoiceCall);
+        }
+
+
     }
 
     private static Intent createDisplayMessageIntent(Context context, Class intentClass, ArrayList<SmsCbMessage> messageList) {

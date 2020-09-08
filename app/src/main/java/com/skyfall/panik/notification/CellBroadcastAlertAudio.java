@@ -152,7 +152,7 @@ public class CellBroadcastAlertAudio extends Service  {
 
 
         try {
-            log("Locale=" + res.getConfiguration().get .getLocales() + ", alertType=" + alertType);
+            //log("Locale=" + res.getConfiguration().get .getLocales() + ", alertType=" + alertType);
             // Load the tones based on type
             switch (alertType) {
                 case ETWS_EARTHQUAKE:
