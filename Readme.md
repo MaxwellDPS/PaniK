@@ -2,7 +2,7 @@
 
 ## POC App for Spoofing of WEA Messages at the API UI level
 
-<img align="right" src="app.gif" width="250" />
+<img align="right" src="paniK.gif" width="250" />
 
 For use case see Alertify [Alertify](https://github.com/MaxwellDPS/Alertify) which uses a gotify server for realtime headless alerts
 
